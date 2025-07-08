@@ -1,3 +1,14 @@
+export const metadata  = {
+  title: "Home | Scrapify - Turn Scrap into Value",
+  description:
+    "Book your doorstep scrap pickup with Scrapify and get paid instantly. Trusted across NCR for eco-friendly and transparent scrap disposal services.",
+  keywords:
+    "scrap pickup NCR, scrapify booking, instant scrap payment, online scrap collection, recycling service India",
+}
+
+
+
+
 import Banner from "@/components/Banner";
 import FloatingForm from "@/components/FloatingForm";
 
@@ -14,15 +25,15 @@ export default function Page() {
     <>
 
 
-    
-  
+
+
       <Banner />
-      <FloatingForm/>
+      <FloatingForm />
 
       <WhyRecycleBaba />
-     
+
       <HowItWorks />
-     
+
 
 
     </>
