@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('/fonts/Poppins-Regular.ttf') format('truetype'); /* not 'ttf' */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyFontBold';
+  src: url('/fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+* {
+  font-family: 'MyFont', sans-serif;
+}
+
+.fw-bold{
+  font-family: 'MyFontBold',sans-serif !important;
+}
+
+
 .f_12 {
     font-size: 0.75rem !important; /* 12px */
   }
@@ -170,3 +191,44 @@
   width: 120px;
   height: 120px;
 }
+
+
+.text-justify{
+  text-align: justify !important;
+}
+
+
+.btn-outline-success {
+  color: #228b22;
+  border: 1px solid #228b22;
+  background-color: transparent;
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:focus {
+  background-color: #228b22;
+  color: #fff;
+  border-color: #228b22;
+}
+
+
+
+ ::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f0f0f0; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #228b22; 
+    border-radius: 0px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #5ab95a; 
+  }

@@ -5,6 +5,7 @@ import {
   Scale,
   Eye
 } from "lucide-react";
+import Header from "./Header";
 
 const features = [
   {
@@ -31,11 +32,11 @@ const features = [
 
 export default function WhyRecycleBaba() {
   return (
-    <section className="py-5 mt-5">
+    <section className="py-5">
       <div className="container">
         <div className="row mx-md-5">
         <div className="text-center">
-          <h1 className="fw-bold text-success">Why Scrapfiy</h1>
+        <Header h2='Why Scrapify'/>
         </div>
 
         <div className="row g-4">

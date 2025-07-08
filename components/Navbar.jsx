@@ -7,7 +7,9 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg  py-4">
       <div className="container-fluid">
-        <Link className="navbar-brand fw-bold" href="/">Navbar</Link>
+        <Link className="navbar-brand ms-md-5 fw-bold" href="/">
+        <img src='/img/logo.jpg' width={130} alt='logo'/>
+        </Link>
 
         <button
           className="navbar-toggler"
@@ -26,9 +28,7 @@ export default function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" href="/">Home</Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="/scrap-price-list">Scrap Price List</Link>
-            </li>
+           
             <li className="nav-item">
               <Link className="nav-link" href="/bulk-scrap">Bulk Scrap</Link>
             </li>
@@ -42,10 +42,11 @@ export default function Navbar() {
               >
                Services
               </a>
-              <ul className="dropdown-menu">
-                <li><Link className="dropdown-item" href="/action">Action</Link></li>
-                <li><Link className="dropdown-item" href="/another-action">Another action</Link></li>
-                <li><Link className="dropdown-item" href="/something-else">Something else here</Link></li>
+              <ul className="dropdown-menu fw-semibold f_14">
+                <li><Link className="dropdown-item" href="/action">Scrap Dealing</Link></li>
+                <li><Link className="dropdown-item" href="/action">E Waste Services</Link></li>
+                <li><Link className="dropdown-item" href="/another-action">Demolition Services</Link></li>
+                <li><Link className="dropdown-item" href="/something-else">Facility Decommissioning</Link></li>
               </ul>
             </li>
             <li className="nav-item">
