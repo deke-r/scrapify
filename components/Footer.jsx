@@ -28,7 +28,8 @@ export default function Footer() {
               </div>
               <div className="footer-contact-item d-flex align-items-start">
                 <MapPin size={16} className="text-success me-2 mt-1" />
-                <span>UGF Pocket 2 Jasola Delhi – 110025</span>
+                <span>Plot No 281,
+Udyog Kendra 1, Ecotech 3,Greater Noida 201306</span>
               </div>
             </div>
           </div>
@@ -111,6 +112,11 @@ export default function Footer() {
                 <li>
                   <a href="#" className="footer-link">
                     Noida
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="footer-link">
+                   Greater Noida
                   </a>
                 </li>
                 <li>

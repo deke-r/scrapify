@@ -6,7 +6,7 @@ import Header from "./Header"
 import { Truck } from "lucide-react";
 
 
-const states = ["Delhi", "Noida", "Gurugram", "Faridabad", "Ghaziabad", "Dehradun"]
+const states = ["Delhi", "Noida","Greater Noida","Gurugram", "Faridabad", "Ghaziabad"]
 const scrapTypes = [
   "Paper", "Metals", "Plastic", "Electronics", "E- Waste", "Bulk Scrap",
   "Furniture", "Glass", "Vehicle", "Old Clothes/Fabrics", "Other"

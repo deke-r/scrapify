@@ -75,9 +75,10 @@ export default function Contact() {
               </div>
               <h4 className="fw-bold mb-2">Visit Us</h4>
               <p className="text-muted f_15">
-                 DLF Prime Towers, Pocket F, Okhla Phase I, Okhla Industrial Estate,
+                 Plot No 281,
+Udyog Kendra 1, Ecotech 3,
                 <br />
-                New Delhi, Delhi 110020
+               Greater Noida 201306
               </p>
             </div>
           </div>

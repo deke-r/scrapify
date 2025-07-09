@@ -76,7 +76,7 @@ export default function Testimonials() {
     return (
         <section className="py-5">
             <div className="container">
-                {/* Header */}
+
                 <div className="row">
                     <div className="col-lg-8 mx-auto text-center mb-5">
 
@@ -92,19 +92,19 @@ export default function Testimonials() {
                     </div>
                 </div>
 
-                {/* Testimonials Grid */}
+
                 <div className="row">
                     {testimonials.map((testimonial, index) => (
                         <div key={testimonial.id} className="col-lg-4 col-md-6 mb-4">
                             <div className={`${styles.testimonialCard} card h-100 border-0 shadow-sm hover-card`}>
                                 <div className="card-body p-4">
-                                    {/* Rating */}
+
                                     <div className="d-flex gap-1 mb-3">{renderStars(testimonial.rating)}</div>
 
-                                    {/* Testimonial Text */}
+
                                     <blockquote className={`${styles.testimonialText} f_15 mb-4`}>"{testimonial.text}"</blockquote>
 
-                                    {/* Customer Info */}
+
                                     <div className="d-flex align-items-center">
                                         <img
                                             src='/gif/user.gif'
@@ -113,26 +113,18 @@ export default function Testimonials() {
                                         />
                                         <div className="flex-grow-1">
                                             <h6 className="fw-bold mb-0 f_14">{testimonial.name}</h6>
-                                            {/* <p className="text-muted f_12 mb-0">{testimonial.position}</p> */}
-                                            {/* <p className="text-success f_12 mb-0">{testimonial.company}</p> */}
+
                                         </div>
                                     </div>
 
-                                    {/* Company Logo */}
-                                    {/* <div className="text-center mt-3 pt-3 border-top">
-                    <img
-                      src={testimonial.logo || "/placeholder.svg"}
-                      alt={`${testimonial.company} logo`}
-                      className={styles.companyLogo}
-                    />
-                  </div> */}
+
                                 </div>
                             </div>
                         </div>
                     ))}
                 </div>
 
-                {/* Stats Section */}
+              
                 <div className={`${styles.statsSection} row mt-5 py-4`}>
                     <div className="col-md-3 text-center mb-3">
                         <div className={styles.statItem}>
@@ -161,7 +153,7 @@ export default function Testimonials() {
                 </div>
 
 
-                {/* CTA Section */}
+
                 <div className="row mt-5">
                     <div className="col-lg-8 mx-auto text-center">
                         <div className={`${styles.ctaSection} bg-gradient-success text-white rounded-3 p-5`}>

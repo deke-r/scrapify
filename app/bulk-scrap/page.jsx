@@ -1,4 +1,14 @@
+import Header from "@/components/Header"
 import styles from "../../styles/Bulk-scrap.module.css"
+import WhatWeDo from "@/components/WhatWeDo"
+ import {
+  ShoppingCart,
+  Rocket,
+  BookOpen,
+  Megaphone,
+  Banknote,
+  Newspaper,
+} from "lucide-react"
 
 export default function BulkScrap() {
   return (
@@ -15,7 +25,7 @@ export default function BulkScrap() {
       </section>
 
       {/* Hero Section */}
-      <section className={`${styles.heroSection} bg-gradient-success text-white py-5`}>
+      <section className={`${styles.heroSection} bg-gradient-success d-flex align-items-center text-white py-5`}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -54,273 +64,129 @@ export default function BulkScrap() {
         </div>
       </section>
 
-      {/* What We Do Section */}
-      <section className="py-5 bg-light">
-        <div className="container">
-          <div className="row">
-            <div className="col-12 mb-5">
-              <h3 className="fw-bold text-center">What We Do?</h3>
-            </div>
-          </div>
+<WhatWeDo/>
 
-          {/* Process Steps */}
-          <div className="row mb-5">
-            <div className="col-lg-4 mb-4">
-              <div className={`${styles.processCard} card h-100 border-0 shadow-sm`}>
-                <div className="card-body text-center p-4">
-                  <div
-                    className={`${styles.processIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
-                  >
-                    <img src="/placeholder.svg?height=64&width=64" alt="Audit" className="img-fluid" />
-                  </div>
-                  <h4 className="fw-bold mb-3">Audit:</h4>
-                  <p className="f_15 text-muted">
-                    We do an inspection of your data requirements because we check what arrangements we need to do for
-                    the extraction.
-                  </p>
-                </div>
-              </div>
-            </div>
+    
+  <section className="py-5">
+  <div className="container">
+    <div className="row">
+      <div className="col-12 mb-5">
+        <Header h2="Why Scrapify for Bulk Data?" />
+      </div>
+    </div>
 
-            <div className="col-lg-4 mb-4">
-              <div className={`${styles.processCard} card h-100 border-0 shadow-sm`}>
-                <div className="card-body text-center p-4">
-                  <div
-                    className={`${styles.processIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
-                  >
-                    <img src="/placeholder.svg?height=64&width=64" alt="Participation" className="img-fluid" />
-                  </div>
-                  <h4 className="fw-bold mb-3">Taking part:</h4>
-                  <p className="f_15 text-muted">
-                    Scrapify also participates in Online Bidding/Tender for large-scale data extraction projects.
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div className="row">
+      <div className="col-12 mb-4">
+        <h4 className="fw-bold text-dark">1. Seamless Execution</h4>
+        <p className="f_15 text-justify">
+          We simplify the bulk scraping process by managing all technical operations—from scheduling to execution—ensuring a smooth and stress-free experience for your team.
+        </p>
+      </div>
 
-            <div className="col-lg-4 mb-4">
-              <div className={`${styles.processCard} card h-100 border-0 shadow-sm`}>
-                <div className="card-body text-center p-4">
-                  <div
-                    className={`${styles.processIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
-                  >
-                    <img src="/placeholder.svg?height=64&width=64" alt="Planning" className="img-fluid" />
-                  </div>
-                  <h3 className="fw-bold mb-3">Preparation:</h3>
-                  <p className="f_15 text-muted">
-                    Our team meticulously designs a comprehensive plan and implements strategic strategies to ensure
-                    efficient data extraction.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div className="col-12 mb-4">
+        <h4 className="fw-bold text-dark">2. Multi-Domain Expertise</h4>
+        <p className="f_15 text-justify">
+          Whether it's product listings, social feeds, listings, or media content, our team is skilled in extracting structured data from a wide range of web sources.
+        </p>
+      </div>
 
-          <div className="row mb-5">
-            <div className="col-lg-4 mb-4">
-              <div className={`${styles.processCard} card h-100 border-0 shadow-sm`}>
-                <div className="card-body text-center p-4">
-                  <div
-                    className={`${styles.processIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
-                  >
-                    <img src="/placeholder.svg?height=64&width=64" alt="Assigning" className="img-fluid" />
-                  </div>
-                  <h4 className="fw-bold mb-3">Allotting:</h4>
-                  <p className="f_15 text-muted">
-                    We assign a dedicated scraping executive to supervise the data extraction and processing for your
-                    project.
-                  </p>
-                </div>
-              </div>
-            </div>
+      <div className="col-12 mb-4">
+        <h4 className="fw-bold text-dark">3. Optimized & Sustainable</h4>
+        <p className="f_15 text-justify">
+          We follow optimized scraping workflows that reduce server load and promote responsible data extraction, aligning with ethical data usage practices.
+        </p>
+      </div>
 
-            <div className="col-lg-4 mb-4">
-              <div className={`${styles.processCard} card h-100 border-0 shadow-sm`}>
-                <div className="card-body text-center p-4">
-                  <div
-                    className={`${styles.processIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
-                  >
-                    <img src="/placeholder.svg?height=64&width=64" alt="Collecting" className="img-fluid" />
-                  </div>
-                  <h4 className="fw-bold mb-3">Collecting Data:</h4>
-                  <p className="f_15 text-muted">
-                    We carefully plan extraction routines for data collection based on the frequency and volume
-                    requirements to ensure timely delivery.
-                  </p>
-                </div>
-              </div>
-            </div>
+      <div className="col-12 mb-4">
+        <h4 className="fw-bold text-dark">4. Transparent Pricing</h4>
+        <p className="f_15 text-justify">
+          Our pricing is clear, fair, and scalable based on project scope—no hidden fees or surprise charges, just accurate estimates tailored to your needs.
+        </p>
+      </div>
 
-            <div className="col-lg-4 mb-4">
-              <div className={`${styles.processCard} card h-100 border-0 shadow-sm`}>
-                <div className="card-body text-center p-4">
-                  <div
-                    className={`${styles.processIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
-                  >
-                    <img src="/placeholder.svg?height=64&width=64" alt="Transportation" className="img-fluid" />
-                  </div>
-                  <h3 className="fw-bold mb-3">Processing:</h3>
-                  <p className="f_15 text-muted">
-                    We handle all arrangements for data processing, cleaning, and formatting according to your
-                    specifications.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div className="col-12 mb-4">
+        <h4 className="fw-bold text-dark">5. Full Compliance</h4>
+        <p className="f_15 text-justify">
+          We ensure all data collection is legally compliant and provide audit-ready documentation and logs for transparency and accountability.
+        </p>
+      </div>
 
-          <div className="row">
-            <div className="col-lg-6 mx-auto">
-              <div className={`${styles.processCard} card h-100 border-0 shadow-sm`}>
-                <div className="card-body text-center p-4">
-                  <div
-                    className={`${styles.processIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
-                  >
-                    <img src="/placeholder.svg?height=64&width=64" alt="Reporting" className="img-fluid" />
-                  </div>
-                  <h5 className="fw-bold mb-3">Reporting:</h5>
-                  <p className="f_15 text-muted">
-                    Our detailed reports provide a comprehensive overview of the quantity and categories of data
-                    collected and processed, based on careful day-to-day record-keeping.
-                  </p>
-                </div>
-              </div>
-            </div>
+      <div className="col-12 text-center">
+        <button className="btn btn-success btn-lg">Get Quote</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section className="py-5 bg-light">
+  <div className="container">
+    <div className="row">
+      <div className="col-12 mb-5">
+        <h2 className="fw-bold text-center">Our Prospective Clients</h2>
+      </div>
+    </div>
+
+    <div className="row">
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
+          <div className="card-body p-4">
+            <ShoppingCart size={48} className="text-success mb-3" />
+            <h4 className="fw-bold">E-commerce</h4>
           </div>
         </div>
-      </section>
+      </div>
 
-      {/* Why Choose Us Section */}
-      <section className="py-5">
-        <div className="container">
-          <div className="row">
-            <div className="col-12 mb-5">
-              <h2 className="fw-bold text-center">Why Choose Scrapify for Bulk Data Collection?</h2>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-12 mb-4">
-              <h2 className="fw-bold text-success">1. Convenience:</h2>
-              <p className="f_15 text-justify">
-                We understand that managing and processing bulk data extraction can be a time-consuming and challenging
-                task. With our Bulk Data Collection Service, we take care of all the technical complexities involved in
-                collecting your web data. Our team will coordinate with you to schedule convenient extraction times,
-                ensuring a hassle-free experience.
-              </p>
-            </div>
-
-            <div className="col-12 mb-4">
-              <h2 className="fw-bold text-success">2. Efficient Handling:</h2>
-              <p className="f_15 text-justify">
-                Our experienced professionals are trained in handling a wide range of data extraction requirements.
-                Whether you need e-commerce data, social media content, news articles, or any other web-based
-                information, we have the expertise to handle it all. We utilize state-of-the-art tools and techniques to
-                ensure safe and efficient collection of your data.
-              </p>
-            </div>
-
-            <div className="col-12 mb-4">
-              <h2 className="fw-bold text-success">3. Environmentally Friendly:</h2>
-              <p className="f_15 text-justify">
-                By choosing Scrapify for your bulk data collection needs, you are contributing to efficient digital
-                resource utilization. We prioritize optimized scraping methods and proper data management to minimize
-                server load and ensure sustainable data extraction practices.
-              </p>
-            </div>
-
-            <div className="col-12 mb-4">
-              <h2 className="fw-bold text-success">4. Competitive Pricing:</h2>
-              <p className="f_15 text-justify">
-                We offer competitive pricing for our Bulk Data Collection Service. Our rates are based on the complexity
-                and volume of data being collected, ensuring you receive fair value for your investment. Our transparent
-                pricing policy ensures that there are no hidden costs or surprises.
-              </p>
-            </div>
-
-            <div className="col-12 mb-4">
-              <h2 className="fw-bold text-success">5. Compliance and Documentation:</h2>
-              <p className="f_15 text-justify">
-                At Scrapify, we adhere to all relevant regulations and guidelines governing web scraping and data
-                collection. We provide proper documentation and certification for the data extraction services provided,
-                ensuring compliance with legal requirements. You can trust us to handle your data collection needs
-                responsibly and ethically.
-              </p>
-            </div>
-
-            <div className="col-12 text-center">
-              <button className="btn btn-success btn-lg">Get Quote</button>
-            </div>
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
+          <div className="card-body p-4">
+            <Rocket size={48} className="text-success mb-3" />
+            <h4 className="fw-bold">Tech Startups</h4>
           </div>
         </div>
-      </section>
+      </div>
 
-      {/* Our Prospective Clients Section */}
-      <section className="py-5 bg-light">
-        <div className="container">
-          <div className="row">
-            <div className="col-12 mb-5">
-              <h2 className="fw-bold text-center">Our Prospective Clients</h2>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-lg-4 col-md-6 mb-4">
-              <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
-                <div className="card-body p-4">
-                  <div className={`${styles.clientIcon} mx-auto mb-3`}></div>
-                  <h2 className="fw-bold">E-commerce</h2>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-              <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
-                <div className="card-body p-4">
-                  <div className={`${styles.clientIcon} mx-auto mb-3`}></div>
-                  <h2 className="fw-bold">Tech Startups</h2>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-              <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
-                <div className="card-body p-4">
-                  <div className={`${styles.clientIcon} mx-auto mb-3`}></div>
-                  <h2 className="fw-bold">Research Firms</h2>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-              <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
-                <div className="card-body p-4">
-                  <div className={`${styles.clientIcon} mx-auto mb-3`}></div>
-                  <h2 className="fw-bold">Marketing Agencies</h2>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-              <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
-                <div className="card-body p-4">
-                  <div className={`${styles.clientIcon} mx-auto mb-3`}></div>
-                  <h2 className="fw-bold">Financial Services</h2>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-              <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
-                <div className="card-body p-4">
-                  <div className={`${styles.clientIcon} mx-auto mb-3`}></div>
-                  <h2 className="fw-bold">Media Companies</h2>
-                </div>
-              </div>
-            </div>
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
+          <div className="card-body p-4">
+            <BookOpen size={48} className="text-success mb-3" />
+            <h4 className="fw-bold">Research Firms</h4>
           </div>
         </div>
-      </section>
+      </div>
+
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
+          <div className="card-body p-4">
+            <Megaphone size={48} className="text-success mb-3" />
+            <h4 className="fw-bold">Marketing Agencies</h4>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
+          <div className="card-body p-4">
+            <Banknote size={48} className="text-success mb-3" />
+            <h4 className="fw-bold">Financial Services</h4>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
+          <div className="card-body p-4">
+            <Newspaper size={48} className="text-success mb-3" />
+            <h4 className="fw-bold">Media Companies</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     
     </div>
