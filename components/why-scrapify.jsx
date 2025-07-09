@@ -6,63 +6,95 @@ import {
   Eye
 } from "lucide-react";
 import Header from "./Header";
+import styles from "../styles/About.module.css";
 
-const features = [
-  {
-    icon: <IndianRupee className="text-success" size={50} />,
-    title: "Best Rates",
-    desc: "Recyclebaba gives you the best prices for your scrap."
-  },
-  {
-    icon: <ShieldCheck className="text-success" size={50} />,
-    title: "Verified Scrap Pickup Team",
-    desc: "Our verified scrap team comes to your doorstep for pickup."
-  },
-  {
-    icon: <Scale className="text-success" size={50} />,
-    title: "Digital Weighing Scale",
-    desc: "We use ISO-certified digital weighing scales."
-  },
-  {
-    icon: <Eye className="text-success" size={50} />,
-    title: "Transparent Process",
-    desc: "You see everything we weigh and pay for."
-  }
-];
-
-export default function WhyRecycleBaba() {
+export default function WhyScrapify() {
   return (
-    <section className="py-5">
+    <section className="py-5 bg-light">
       <div className="container">
-        <div className="row mx-md-5">
-        <div className="text-center">
-        <Header h2='Why Scrapify'/>
+        <div className="row">
+          <div className="col-lg-12 text-center mb-5">
+            <Header h2="Why Choose Scrapify?" />
+            <p className="lead f_16 text-muted">
+              Discover what makes us the trusted partner for your scrap disposal needs
+            </p>
+          </div>
         </div>
 
-        <div className="row g-4">
-          {features.map((feature, index) => (
-            <div key={index} className="col-md-3 col-lg-3">
-              <div className="card h-100 border-0 shadow-sm rounded-4  hover-card py-5 px-4">
-                <div className="">
-                  <div
-                    className="d-flex align-items-center justify-content-center rounded-circle"
-                    style={{
-                      backgroundColor: "#E8F3E8",
-                      width: "70px",
-                      height: "70px"
-                    }}
-                  >
-                    {feature.icon}
-                  </div>
-                  <div>
-                    <h4 className="fw-bold my-4 text-dark mb-2">{feature.title}</h4>
-                    <p className="text-muted fw-medium mb-0">{feature.desc}</p>
-                  </div>
+        <div className="row">
+          {/* Best Rates */}
+          <div className="col-lg-3 mb-4">
+            <div className={`${styles.featureCard} card h-100 border-0 shadow-sm hover-card`}>
+              <div className="card-body text-center p-4">
+                <div
+                  className={`${styles.featureIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
+                  style={{ width: 70, height: 70 }}
+                >
+                  <IndianRupee size={32} />
                 </div>
+                <h4 className="fw-bold mb-3">Best Rates</h4>
+                <p className="f_15 text-muted">
+                  Scrapify offers competitive prices for all types of scrap — transparent and fair.
+                </p>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+
+          {/* Verified Scrap Pickup Team */}
+          <div className="col-lg-3 mb-4">
+            <div className={`${styles.featureCard} card h-100 border-0 shadow-sm hover-card`}>
+              <div className="card-body text-center p-4">
+                <div
+                  className={`${styles.featureIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
+                  style={{ width: 70, height: 70 }}
+                >
+                  <ShieldCheck size={32} />
+                </div>
+                <h4 className="fw-bold mb-3">Verified Pickup Team</h4>
+                <p className="f_15 text-muted">
+                  Our trusted and verified team ensures a professional and secure pickup at your doorstep.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Digital Weighing Scale */}
+          <div className="col-lg-3 mb-4">
+            <div className={`${styles.featureCard} card h-100 border-0 shadow-sm hover-card`}>
+              <div className="card-body text-center p-4">
+                <div
+                  className={`${styles.featureIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
+                  style={{ width: 70, height: 70 }}
+                >
+                  <Scale size={32} />
+                </div>
+                <h4 className="fw-bold mb-3">Digital Accuracy</h4>
+                <p className="f_15 text-muted">
+                  We use ISO-certified digital weighing scales to ensure full transparency and precision.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Transparent Process */}
+          <div className="col-lg-3 mb-4">
+            <div className={`${styles.featureCard} card h-100 border-0 shadow-sm hover-card`}>
+              <div className="card-body text-center p-4">
+                <div
+                  className={`${styles.featureIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
+                  style={{ width: 70, height: 70 }}
+                >
+                  <Eye size={32} />
+                </div>
+                <h4 className="fw-bold mb-3">Transparent Process</h4>
+                <p className="f_15 text-muted">
+                  Every step is visible — from weighing to payment — for your complete peace of mind.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Optional: Add more cards if desired */}
         </div>
       </div>
     </section>

@@ -8,7 +8,9 @@ export async function POST(req) {
   }
 
   const transporter = nodemailer.createTransport({
-    service: "gmail",
+    host: 'smtp.gmail.com',
+    port: 587,
+    secure: false,
     auth: {
       user: process.env.MAIL_USER,
       pass: process.env.MAIL_PASS,
@@ -17,7 +19,7 @@ export async function POST(req) {
 
   await transporter.sendMail({
     from: `"SCRAPIFY LEAD" <${process.env.MAIL_USER}>`,
-    to: "bhavishya.sense@gmail.com", 
+    to: "bhavishya.sense@gmail.com",
     subject: "New Pickup Lead - Phone",
     html: `
   <div style="padding: 40px 20px; font-family: Arial, sans-serif; color: #fff;">

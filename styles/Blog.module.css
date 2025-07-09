@@ -1,0 +1,180 @@
+.heroSection {
+  background: linear-gradient(135deg, #228b22 0%, #1e7a1e 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.heroSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="blog-pattern" width="50" height="50" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="10" cy="10" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="40" r="1.5" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23blog-pattern)"/></svg>');
+  opacity: 0.3;
+}
+
+.searchContainer {
+  max-width: 500px;
+}
+
+.searchContainer input {
+  padding-right: 60px;
+  border: none;
+  border-radius: 50px;
+}
+
+.searchContainer button {
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.categoryFilter {
+  padding: 1rem 0;
+}
+
+.categoryBtn {
+  border-radius: 25px;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.875rem;
+  transition: all 0.3s ease;
+}
+
+.categoryBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(34, 139, 34, 0.3);
+}
+
+.featuredPost {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featuredPost:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.featuredPost img {
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.featuredPost:hover img {
+  transform: scale(1.05);
+}
+
+.sidebar {
+  top: 2rem;
+}
+
+.blogCard {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blogCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.blogCard img {
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.blogCard:hover img {
+  transform: scale(1.05);
+}
+
+.categoryBadge {
+  background-color: rgba(34, 139, 34, 0.1) !important;
+  color: #228b22 !important;
+  font-weight: 600;
+}
+
+/* Animation for blog cards */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.blogCard {
+  animation: slideUp 0.6s ease-out;
+}
+
+.blogCard:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.blogCard:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .searchContainer {
+    max-width: 100%;
+  }
+
+  .categoryFilter {
+    justify-content: flex-start !important;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+  }
+
+  .categoryBtn {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .sidebar {
+    position: static !important;
+    margin-top: 2rem;
+  }
+
+  .featuredPost img {
+    height: 200px;
+  }
+}
+
+/* Pagination styling */
+.pagination .page-link {
+  border-radius: 50%;
+  margin: 0 0.25rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #dee2e6;
+  transition: all 0.3s ease;
+}
+
+.pagination .page-link:hover {
+  background-color: #228b22;
+  border-color: #228b22;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #228b22;
+  border-color: #228b22;
+}

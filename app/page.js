@@ -12,6 +12,7 @@ import WhyRecycleBaba from "@/components/why-scrapify"
 import HowItWorks from "@/components/how-it-works"
 import PricingCards from "@/components/pricing-cards"
 import CallToAction from "@/components/call-to-action"
+import Testimonials from "@/components/Testimonials";
 export default function Page() {
   return (
     <>
@@ -19,6 +20,7 @@ export default function Page() {
       <FloatingForm />
       <WhyRecycleBaba />
       <HowItWorks />
+      <Testimonials/>
     </>
   );
 }

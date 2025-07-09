@@ -53,11 +53,7 @@ export default function Footer() {
                     Services
                   </a>
                 </li>
-                <li>
-                  <a href="#" className="footer-link">
-                    Pricing
-                  </a>
-                </li>
+
                 <li>
                   <a href="#" className="footer-link">
                     Contact
@@ -78,36 +74,27 @@ export default function Footer() {
               <h5 className="footer-title mb-3">Our Services</h5>
               <ul className="footer-links list-unstyled">
                 <li>
-                  <a href="#" className="footer-link">
-                    Paper Scrap Collection
+                  <a href="/action" className="footer-link">
+                    Scrap Dealing
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="footer-link">
-                    Plastic Recycling
+                  <a href="/action" className="footer-link">
+                    E Waste Services
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="footer-link">
-                    Metal Scrap Pickup
+                  <a href="/another-action" className="footer-link">
+                    Demolition Services
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="footer-link">
-                    E-Waste Management
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link">
-                    Furniture Disposal
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link">
-                    Bulk Scrap Collection
+                  <a href="/something-else" className="footer-link">
+                    Facility Decommissioning
                   </a>
                 </li>
               </ul>
+
             </div>
           </div>
 
@@ -141,7 +128,7 @@ export default function Footer() {
                     Ghaziabad
                   </a>
                 </li>
-           
+
               </ul>
             </div>
           </div>

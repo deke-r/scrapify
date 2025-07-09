@@ -1,0 +1,170 @@
+.announcementBar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.heroSection {
+  background: linear-gradient(135deg, #228b22 0%, #1e7a1e 100%);
+  position: relative;
+  overflow: hidden;
+  min-height: 60vh;
+}
+
+.heroSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="bulk-pattern" width="40" height="40" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="2" height="2" fill="rgba(255,255,255,0.1)"/><rect x="20" y="20" width="2" height="2" fill="rgba(255,255,255,0.1)"/><rect x="10" y="30" width="1" height="1" fill="rgba(255,255,255,0.1)"/><rect x="30" y="10" width="1" height="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23bulk-pattern)"/></svg>');
+  opacity: 0.3;
+}
+
+.heroImage {
+  position: relative;
+  z-index: 2;
+}
+
+.processCard {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.processCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.processIcon {
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.processCard:hover .processIcon {
+  transform: scale(1.1) rotate(5deg);
+  background-color: #1e7a1e !important;
+}
+
+.clientCard {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+  min-height: 150px;
+}
+
+.clientCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.clientIcon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #228b22 0%, #1e7a1e 100%);
+  border-radius: 50%;
+}
+
+.scrapingInterface {
+  border-radius: 20px;
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.inputSection {
+  background: rgba(34, 139, 34, 0.05);
+  border-radius: 15px;
+  padding: 2rem;
+  border-left: 4px solid #228b22;
+}
+
+.uploadArea {
+  border-color: #228b22 !important;
+  background: rgba(34, 139, 34, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.uploadArea:hover {
+  background: rgba(34, 139, 34, 0.1);
+  transform: translateY(-2px);
+}
+
+.configSection {
+  background: rgba(34, 139, 34, 0.03);
+  border-radius: 15px;
+  padding: 2rem;
+  border-left: 4px solid #1e7a1e;
+}
+
+/* Form enhancements */
+.form-check-input:checked {
+  background-color: #228b22;
+  border-color: #228b22;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #228b22;
+  box-shadow: 0 0 0 0.2rem rgba(34, 139, 34, 0.25);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heroSection {
+    text-align: center;
+    min-height: 50vh;
+  }
+
+  .inputSection,
+  .configSection {
+    padding: 1.5rem;
+  }
+
+  .uploadArea {
+    margin-top: 1rem;
+  }
+
+  .processCard,
+  .clientCard {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Button hover effects */
+.btn-success:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(34, 139, 34, 0.3);
+}
+
+.btn-outline-success:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(34, 139, 34, 0.3);
+}
+
+/* Animation for cards */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.processCard,
+.clientCard {
+  animation: slideUp 0.6s ease-out;
+}
+
+.processCard:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.processCard:nth-child(3) {
+  animation-delay: 0.2s;
+}
+

@@ -1,0 +1,93 @@
+.heroSection {
+  background: linear-gradient(135deg, #228b22 0%, #1e7a1e 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.heroSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="50" cy="10" r="0.5" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  opacity: 0.3;
+}
+
+.contactCard {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contactCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.contactInfo {
+  padding: 2rem 1rem;
+  transition: transform 0.3s ease;
+}
+
+.contactInfo:hover {
+  transform: translateY(-5px);
+}
+
+.contactIcon {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.contactIcon:hover {
+  transform: scale(1.1);
+  background-color: #1e7a1e !important;
+}
+
+/* Form Styling */
+.form-control:focus,
+.form-select:focus {
+  border-color: #228b22;
+  box-shadow: 0 0 0 0.2rem rgba(34, 139, 34, 0.25);
+}
+
+/* Accordion Styling */
+.accordion-button:not(.collapsed) {
+  background-color: rgba(34, 139, 34, 0.1);
+  color: #228b22;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.2rem rgba(34, 139, 34, 0.25);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heroSection {
+    padding: 3rem 0;
+  }
+
+  .contactCard {
+    margin: 1rem;
+  }
+
+  .contactInfo {
+    padding: 1.5rem 1rem;
+  }
+}
+
+/* Animation for form submission */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.btn-success:active {
+  animation: pulse 0.3s ease-in-out;
+}

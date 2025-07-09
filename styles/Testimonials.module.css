@@ -1,0 +1,226 @@
+.overallRating {
+  background: rgba(34, 139, 34, 0.05);
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  display: inline-flex;
+  border: 1px solid rgba(34, 139, 34, 0.1);
+}
+
+.testimonialCard {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonialCard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #228b22, #1e7a1e);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.testimonialCard:hover::before {
+  transform: scaleX(1);
+}
+
+.testimonialCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.testimonialText {
+  font-style: italic;
+  line-height: 1.6;
+  color: #495057;
+  position: relative;
+}
+
+.testimonialText::before {
+  content: "";
+  font-size: 4rem;
+  color: rgba(34, 139, 34, 0.2);
+  position: absolute;
+  top: -20px;
+  left: -10px;
+  font-family: Georgia, serif;
+  line-height: 1;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border: 2px solid #228b22;
+  transition: transform 0.3s ease;
+}
+
+.testimonialCard:hover .avatar {
+  transform: scale(1.1);
+}
+
+.companyLogo {
+  height: 30px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.testimonialCard:hover .companyLogo {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+.statsSection {
+  background: rgba(34, 139, 34, 0.05);
+  border-radius: 15px;
+  margin: 0 -15px;
+  padding: 2rem 15px;
+}
+
+.statItem {
+  transition: transform 0.3s ease;
+}
+
+.statItem:hover {
+  transform: scale(1.05);
+}
+
+.statItem h3 {
+  position: relative;
+}
+
+.statItem h3::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 2px;
+  background: linear-gradient(90deg, #228b22, #1e7a1e);
+  border-radius: 1px;
+}
+
+.ctaSection {
+  position: relative;
+  z-index: 1; /* ensure it's above its background layer */
+}
+
+.ctaSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0; /* push it behind the content */
+  background: url('data:image/svg+xml,...');
+  opacity: 0.3;
+  pointer-events: none; /* <--- important! prevent blocking clicks */
+}
+
+
+/* Animation for testimonial cards */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.testimonialCard {
+  animation: slideInUp 0.6s ease-out;
+}
+
+.testimonialCard:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.testimonialCard:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.testimonialCard:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.testimonialCard:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.testimonialCard:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+/* Star rating animation */
+.fa-star {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.testimonialCard:hover .fa-star.text-warning {
+  transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .overallRating {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .testimonialText::before {
+    font-size: 3rem;
+    top: -15px;
+    left: -5px;
+  }
+
+  .statsSection {
+    margin: 0;
+    padding: 1.5rem;
+  }
+
+  .ctaSection {
+    padding: 2rem 1rem !important;
+  }
+
+  .avatar {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Hover effect for the entire testimonials section */
+@media (min-width: 992px) {
+  .testimonialCard:hover ~ .testimonialCard {
+    opacity: 0.7;
+    transform: scale(0.95);
+  }
+}
+
+/* Loading animation for dynamic content */
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
+
+.loading {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200px 100%;
+  animation: shimmer 1.5s infinite;
+}
