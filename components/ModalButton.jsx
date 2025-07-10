@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import PickupRequestModal from "./PickupRequestModal";
-
+import { MessagesSquare } from 'lucide-react';
 const ModalButton = ({ text = "Get a quote", variant = "green" }) => {
   const [showModal, setShowModal] = useState(false);
 
@@ -15,7 +15,7 @@ const ModalButton = ({ text = "Get a quote", variant = "green" }) => {
   return (
     <>
       <button className={buttonClass} onClick={() => setShowModal(true)} style={{zIndex:2}}>
-        {text}
+        {text}<MessagesSquare  className="ms-1"/>
       </button>
 
 

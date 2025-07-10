@@ -40,9 +40,9 @@ export default function BulkScrap() {
             <div className="col-lg-6">
               <div className={`${styles.heroImage} text-center`}>
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/img/imgi_6_scrap-metal-flat-composition-with-cityscape-background-view-bulldozer-with-workers-moving-waste-iron-vector-illustration_1284-79302.webp"
                   alt="Bulk Scrap Collection"
-                  className="img-fluid rounded-3 shadow-lg"
+                  className="img-fluid rounded-5 shadow-lg"
                 />
               </div>
             </div>

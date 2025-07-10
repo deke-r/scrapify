@@ -25,9 +25,9 @@ export default function About() {
               <div className={`${styles.heroImage} text-center`}>
                 <div className={`${styles.imageContainer} position-relative`}>
                   <img
-                    src="/placeholder.svg?height=400&width=500"
+                    src="/img/imgi_133_car-dump-cartoon-concept-with-handyman-operating-auto-crushing-machinery-vector-illustration_1284-81103.webp"
                     alt="Scrapify Dashboard"
-                    className="img-fluid rounded-3 shadow-lg"
+                    className="img-fluid rounded-5 shadow-lg"
                   />
                 </div>
               </div>
@@ -58,68 +58,7 @@ export default function About() {
 
  <StatsSection/>
 
-      {/* Team Section */}
-      {/* <section className="py-5 bg-light">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12 text-center mb-5">
-              <Header h2='Meet Our Team'/>
 
-              <p className="lead f_16 text-muted">The passionate people behind Scrapify</p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 mb-4">
-              <div className={`${styles.teamCard} card border-0 shadow-sm hover-card`}>
-                <div className="card-body text-center p-4">
-                  <img
-                    src="/placeholder.svg?height=150&width=150"
-                    alt="John Doe"
-                    className={`${styles.teamImage} rounded-circle mb-3`}
-                  />
-                  <h5 className="fw-bold mb-1">John Doe</h5>
-                  <p className="text-success f_14 mb-2">CEO & Founder</p>
-                  <p className="f_14 text-muted">
-                    Passionate about making data accessible to everyone through innovative technology.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 mb-4">
-              <div className={`${styles.teamCard} card border-0 shadow-sm hover-card`}>
-                <div className="card-body text-center p-4">
-                  <img
-                    src="/placeholder.svg?height=150&width=150"
-                    alt="Jane Smith"
-                    className={`${styles.teamImage} rounded-circle mb-3`}
-                  />
-                  <h5 className="fw-bold mb-1">Jane Smith</h5>
-                  <p className="text-success f_14 mb-2">CTO</p>
-                  <p className="f_14 text-muted">
-                    Leading our technical vision with expertise in scalable web scraping solutions.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 mb-4">
-              <div className={`${styles.teamCard} card border-0 shadow-sm hover-card`}>
-                <div className="card-body text-center p-4">
-                  <img
-                    src="/placeholder.svg?height=150&width=150"
-                    alt="Mike Johnson"
-                    className={`${styles.teamImage} rounded-circle mb-3`}
-                  />
-                  <h5 className="fw-bold mb-1">Mike Johnson</h5>
-                  <p className="text-success f_14 mb-2">Head of Product</p>
-                  <p className="f_14 text-muted">
-                    Ensuring our products deliver exceptional user experiences and value.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
 
       {/* CTA Section */}
       <section className={`${styles.ctaSection} py-5 bg-gradient-success text-white`}>
