@@ -9,6 +9,8 @@ import WhatWeDo from "@/components/WhatWeDo"
   Banknote,
   Newspaper,
 } from "lucide-react"
+import ModalButton from "@/components/ModalButton"
+
 
 export default function BulkScrap() {
   return (
@@ -32,7 +34,7 @@ export default function BulkScrap() {
               <h1 className="display-4 fw-bold mb-4">Bulk Scrap Collection</h1>
               <h3 className="fw-bold mb-4">Welcome to Scrapify Online Web Scraping Bulk Collection Service!</h3>
               <div className="d-flex gap-3">
-                <button className="btn btn-light btn-lg text-success fw-bold">Get Quote</button>
+              <ModalButton text='Get a quote' variant="white" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -112,7 +114,7 @@ export default function BulkScrap() {
       </div>
 
       <div className="col-12 text-center">
-        <button className="btn btn-success btn-lg">Get Quote</button>
+       <ModalButton text='Get a quote' variant="green" />
       </div>
     </div>
   </div>
@@ -187,6 +189,8 @@ export default function BulkScrap() {
   </div>
 </section>
 
+
+  
 
     
     </div>

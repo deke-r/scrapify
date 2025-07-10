@@ -53,11 +53,11 @@
 /* Accordion Styling */
 .accordion-button:not(.collapsed) {
   background-color: rgba(34, 139, 34, 0.1);
-  color: #228b22;
+  color: #228b22 !important;
 }
 
 .accordion-button:focus {
-  box-shadow: 0 0 0 0.2rem rgba(34, 139, 34, 0.25);
+ box-shadow: 0px;
 }
 
 /* Responsive Design */
@@ -90,4 +90,11 @@
 
 .btn-success:active {
   animation: pulse 0.3s ease-in-out;
+}
+
+
+.accordion-button:not(.collapsed) {
+  color: #ffffff !important; /* text color when active */
+  background-color: #228b22 !important; /* your green */
+  box-shadow: none !important;
 }

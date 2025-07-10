@@ -126,7 +126,7 @@ export default function ContactFormSection() {
                   </div>
 
                   <div className="text-center">
-                    <button type="submit" className="btn btn-success btn-lg px-5">
+                    <button type="submit" className="btn btn-success rounded-4 py-3 f_14 fw-semibold px-4 w-50">
                       Send Message
                     </button>
                   </div>

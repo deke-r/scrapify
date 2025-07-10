@@ -5,7 +5,8 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import TopNav from '@/components/TopNav';
 // import FooterSection from '../components/FooterSection';
-// import TawkToWidget from '@/components/TawkToWidget';
+import TawkToWidget from '@/components/TawkToWidget';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 
 
@@ -15,9 +16,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="d-flex flex-column min-vh-100">
         <Bootstrap />
+        <TawkToWidget/>
+        <WhatsAppButton/>
         <TopNav />
         <Navbar />
-        {/* <TawkToWidget/> */}
         <main className="flex-grow-1">{children}</main>
         <Footer />
       </body>

@@ -86,6 +86,14 @@ export default function FloatingForm() {
                   Book Now 
                     <MousePointerClick />
                 </button>
+                <p className="f_14 fw-semibold text-muted mt-2 ms-2">
+                  <i>
+                  Facing Problems? Call us at  
+                  <span className="text-success ms-1">
+                   +91-1234567890
+                  </span>
+                  </i>
+                  </p>
               </form>
             </div>
           </div>

@@ -21,70 +21,70 @@ export default function Contact() {
       </section>
 
 
-<ContactFormSection/>
-   
+      <ContactFormSection />
+
 
       {/* Contact Info Section */}
-    <section className="py-5 bg-light">
-      <div className="container">
-        <div className="row">
-          {/* Email Us */}
-          <div className="col-lg-4 mb-4">
-            <div className={`${styles.contactInfo} text-center h-100`}>
-              <div
-                className={`${styles.contactIcon} feature-icon bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
-                style={{ width: 70, height: 70 }}
-              >
-                <Mail size={28} />
-              </div>
-              <h4 className="fw-bold mb-2">Email Us</h4>
-              <p className="text-muted f_15">
-                info@scrapify.com
-                <br />
-                
-              </p>
-            </div>
-          </div>
+      <section className="py-5 bg-light">
+        <div className="container">
+          <div className="row">
+            {/* Email Us */}
+            <div className="col-lg-4 mb-4">
+              <div className={`${styles.contactInfo} text-center h-100`}>
+                <div
+                  className={`${styles.contactIcon} feature-icon bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
+                  style={{ width: 70, height: 70 }}
+                >
+                  <Mail size={28} />
+                </div>
+                <h4 className="fw-bold mb-2">Email Us</h4>
+                <p className="text-muted f_15">
+                  info@scrapify.com
+                  <br />
 
-          {/* Call Us */}
-          <div className="col-lg-4 mb-4">
-            <div className={`${styles.contactInfo} text-center h-100`}>
-              <div
-                className={`${styles.contactIcon} feature-icon bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
-                style={{ width: 70, height: 70 }}
-              >
-                <PhoneCall size={28} />
+                </p>
               </div>
-              <h4 className="fw-bold mb-2">Call Us</h4>
-              <p className="text-muted f_15">
-                 +91-9319412012
-                <br />
-                Mon–Fri 9AM–6PM 
-              </p>
             </div>
-          </div>
 
-          {/* Visit Us */}
-          <div className="col-lg-4 mb-4">
-            <div className={`${styles.contactInfo} text-center h-100`}>
-              <div
-                className={`${styles.contactIcon} feature-icon bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
-                style={{ width: 70, height: 70 }}
-              >
-                <MapPin size={28} />
+            {/* Call Us */}
+            <div className="col-lg-4 mb-4">
+              <div className={`${styles.contactInfo} text-center h-100`}>
+                <div
+                  className={`${styles.contactIcon} feature-icon bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
+                  style={{ width: 70, height: 70 }}
+                >
+                  <PhoneCall size={28} />
+                </div>
+                <h4 className="fw-bold mb-2">Call Us</h4>
+                <p className="text-muted f_15">
+                  +91-9319412012
+                  <br />
+                  Mon–Fri 9AM–6PM
+                </p>
               </div>
-              <h4 className="fw-bold mb-2">Visit Us</h4>
-              <p className="text-muted f_15">
-                 Plot No 281,
-Udyog Kendra 1, Ecotech 3,
-                <br />
-               Greater Noida 201306
-              </p>
+            </div>
+
+            {/* Visit Us */}
+            <div className="col-lg-4 mb-4">
+              <div className={`${styles.contactInfo} text-center h-100`}>
+                <div
+                  className={`${styles.contactIcon} feature-icon bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3`}
+                  style={{ width: 70, height: 70 }}
+                >
+                  <MapPin size={28} />
+                </div>
+                <h4 className="fw-bold mb-2">Visit Us</h4>
+                <p className="text-muted f_15">
+                  Plot No 281,
+                  Udyog Kendra 1, Ecotech 3,
+                  <br />
+                  Greater Noida 201306
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
 
       {/* FAQ Section */}
@@ -93,7 +93,7 @@ Udyog Kendra 1, Ecotech 3,
           <div className="row">
             <div className="col-lg-8 mx-auto">
               {/* <h2 className="fw-bold text-center mb-5">Frequently Asked Questions</h2> */}
-              <Header h2='Frequently Asked Questions'/>
+              <Header h2='Frequently Asked Questions' />
               <div className="accordion" id="faqAccordion">
                 <div className="accordion-item mb-3">
                   <h3 className="accordion-header">

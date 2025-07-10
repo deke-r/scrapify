@@ -2,6 +2,7 @@ import Header from "@/components/Header"
 import styles from "../../styles/About.module.css"
 import WhyScrapify from "@/components/why-scrapify"
 import StatsSection from "@/components/StatsSection"
+import ModalButton from "@/components/ModalButton"
 
 export default function About() {
   return (
@@ -17,8 +18,7 @@ export default function About() {
                 collect and analyze web data.
               </p>
               <div className="d-flex gap-3">
-                <button className="btn btn-outline-light btn-lg">Our Story</button>
-                <button className="btn btn-light btn-lg text-success fw-bold">Get Started</button>
+            <ModalButton variant="white"/>
               </div>
             </div>
             <div className="col-lg-6">
@@ -131,8 +131,7 @@ export default function About() {
                 Join thousands of developers and businesses who trust Scrapify for their data needs.
               </p>
               <div className="d-flex gap-3 justify-content-center">
-                <button className="btn btn-light btn-lg text-success fw-bold">Start Free Trial</button>
-                <button className="btn btn-outline-light btn-lg">View Pricing</button>
+              <ModalButton variant="white"/>
               </div>
             </div>
           </div>
