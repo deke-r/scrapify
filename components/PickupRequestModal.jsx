@@ -64,18 +64,18 @@ export default function PickupRequestModal({ show, handleClose }) {
             <form onSubmit={handleSubmit(onSubmit)}>
               <div className="row g-4">
                 {/* Name & Phone */}
-                <div className="col-md-6">
-                  <label className="form-label fw-semibold f_14">Name <span className="text-danger">*</span></label>
+                <div className="col-md-6 text-start">
+                  <label className="form-label ms-2 fw-semibold f_14">Name <span className="text-danger">*</span></label>
                   <input
                     className="form-control rounded-4 f_14 fw-semibold shadow-none py-3"
                     placeholder="Enter your full name"
                     {...register("name", { required: "Name is required" })}
                   />
-                  {errors.name && <small className="text-danger">{errors.name.message}</small>}
+                  {errors.name && <small className="text-danger ms-2">{errors.name.message}</small>}
                 </div>
 
-                <div className="col-md-6">
-                  <label className="form-label fw-semibold f_14">Phone No <span className="text-danger">*</span></label>
+                <div className="col-md-6 text-start">
+                  <label className="form-label ms-2 fw-semibold f_14">Phone No <span className="text-danger">*</span></label>
                   <input
                     className="form-control rounded-4 f_14 fw-semibold shadow-none py-3"
                     placeholder="10-digit mobile number"
@@ -87,22 +87,22 @@ export default function PickupRequestModal({ show, handleClose }) {
                       }
                     })}
                   />
-                  {errors.phone && <small className="text-danger">{errors.phone.message}</small>}
+                  {errors.phone && <small className="text-danger ms-2">{errors.phone.message}</small>}
                 </div>
 
                 {/* Address & Location */}
-                <div className="col-md-8">
-                  <label className="form-label fw-semibold f_14">Address <span className="text-danger">*</span></label>
+                <div className="col-md-8 text-start">
+                  <label className="form-label ms-2 fw-semibold f_14">Address <span className="text-danger">*</span></label>
                   <input
                     className="form-control rounded-4 f_14 fw-semibold shadow-none py-3"
                     placeholder="Pickup address"
                     {...register("address", { required: "Address is required" })}
                   />
-                  {errors.address && <small className="text-danger">{errors.address.message}</small>}
+                  {errors.address && <small className="text-danger ms-2">{errors.address.message}</small>}
                 </div>
 
-                <div className="col-md-4">
-                  <label className="form-label fw-semibold f_14">Location <span className="text-danger">*</span></label>
+                <div className="col-md-4 text-start">
+                  <label className="form-label ms-2 fw-semibold f_14">Location <span className="text-danger">*</span></label>
                   <select
                     className="form-select rounded-4 f_14 fw-semibold shadow-none py-3"
                     {...register("state", { required: "Location is required" })}
@@ -110,22 +110,22 @@ export default function PickupRequestModal({ show, handleClose }) {
                     <option value="">Select Location</option>
                     {states.map((s) => <option key={s} value={s}>{s}</option>)}
                   </select>
-                  {errors.state && <small className="text-danger">{errors.state.message}</small>}
+                  {errors.state && <small className="text-danger ms-2">{errors.state.message}</small>}
                 </div>
 
                 {/* PIN & Email */}
-                <div className="col-md-4">
-                  <label className="form-label fw-semibold f_14">Pin Code <span className="text-danger">*</span></label>
+                <div className="col-md-4 text-start">
+                  <label className="form-label ms-2 fw-semibold f_14">Pin Code <span className="text-danger">*</span></label>
                   <input
                     className="form-control rounded-4 f_14 fw-semibold shadow-none py-3"
                     placeholder="6-digit PIN code"
                     {...register("pincode", { required: "PIN Code is required" })}
                   />
-                  {errors.pincode && <small className="text-danger">{errors.pincode.message}</small>}
+                  {errors.pincode && <small className="text-danger ms-2">{errors.pincode.message}</small>}
                 </div>
 
-                <div className="col-md-8">
-                  <label className="form-label fw-semibold f_14">Email</label>
+                <div className="col-md-8 text-start">
+                  <label className="form-label ms-2 fw-semibold f_14">Email</label>
                   <input
                     type="email"
                     className="form-control rounded-4 f_14 fw-semibold shadow-none py-3"
@@ -135,8 +135,8 @@ export default function PickupRequestModal({ show, handleClose }) {
                 </div>
 
                 {/* Scrap Type */}
-                <div className="col-12">
-                  <label className="form-label fw-semibold f_14">Type of Scrap</label>
+                <div className="col-12 text-start">
+                  <label className="form-label ms-2 fw-semibold f_14">Type of Scrap</label>
                   <div className="d-flex flex-wrap gap-3">
                     {scrapTypes.map((type) => (
                       <div className="form-check form-check-inline" key={type}>
@@ -156,20 +156,20 @@ export default function PickupRequestModal({ show, handleClose }) {
                 </div>
 
                 {/* Pickup Date */}
-                <div className="col-md-6">
-                  <label className="form-label fw-semibold f_14">Pickup Date <span className="text-danger">*</span></label>
+                <div className="col-md-6 text-start">
+                  <label className="form-label ms-2 fw-semibold f_14">Pickup Date <span className="text-danger">*</span></label>
                   <input
                     type="date"
                     min={today}
                     className="form-control rounded-4 f_14 fw-semibold shadow-none py-3"
                     {...register("pickupDate", { required: "Pickup date is required" })}
                   />
-                  {errors.pickupDate && <small className="text-danger">{errors.pickupDate.message}</small>}
+                  {errors.pickupDate && <small className="text-danger ms-2">{errors.pickupDate.message}</small>}
                 </div>
 
                 {/* Remarks */}
-                <div className="col-12">
-                  <label className="form-label fw-semibold f_14">Remarks</label>
+                <div className="col-12 text-start">
+                  <label className="form-label ms-2 fw-semibold f_14">Remarks</label>
                   <textarea
                     className="form-control rounded-4 f_14 fw-semibold shadow-none py-3"
                     rows="4"

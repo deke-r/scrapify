@@ -1,0 +1,68 @@
+/* Demolition Specific Styles */
+.demolitionHero {
+  background: linear-gradient(135deg, #228b22 0%, #1e7a1e 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.demolitionHero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="demolition-pattern" width="25" height="25" patternUnits="userSpaceOnUse"><polygon points="12.5,5 20,20 5,20" fill="rgba(255,255,255,0.1)"/><rect x="8" y="8" width="3" height="3" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23demolition-pattern)"/></svg>');
+  opacity: 0.3;
+}
+
+.safetyBadge {
+  background: linear-gradient(45deg, #f39c12, #e67e22);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.equipmentCard {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.equipmentCard:hover {
+  transform: scale(1.05);
+}
+
+.safetyIcon {
+  font-size: 2.5rem;
+  color: #f39c12;
+  margin-bottom: 1rem;
+}
+
+.demolitionStats {
+  background: rgba(34, 139, 34, 0.1);
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.statNumber {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #228b22;
+  display: block;
+}
+
+.statLabel {
+  font-size: 0.875rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,164 @@
+.heroSection {
+  background: linear-gradient(135deg, #228b22 0%, #1e7a1e 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.heroSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="scrap-pattern" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="15" cy="15" r="1.5" fill="rgba(255,255,255,0.1)"/><rect x="5" y="5" width="2" height="2" fill="rgba(255,255,255,0.1)"/><rect x="20" y="20" width="2" height="2" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23scrap-pattern)"/></svg>');
+  opacity: 0.3;
+}
+
+.featuresCard {
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.featuresCard:hover {
+  transform: translateY(-5px);
+}
+
+.serviceCard {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.serviceIcon {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.serviceCard:hover .serviceIcon {
+  transform: scale(1.1);
+  background-color: #1e7a1e !important;
+}
+
+.processStep {
+  transition: transform 0.3s ease;
+}
+
+.processStep:hover {
+  transform: translateY(-5px);
+}
+
+.stepNumber {
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.processStep:hover .stepNumber {
+  transform: scale(1.1);
+}
+
+.priceCard {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.priceCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.price {
+  font-size: 1.5rem;
+}
+
+.ctaSection {
+  background: linear-gradient(135deg, #228b22 0%, #1e7a1e 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.ctaSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="cta-pattern" width="50" height="50" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="2" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23cta-pattern)"/></svg>');
+  opacity: 0.3;
+}
+
+/* Accordion Styling */
+.accordion-button:not(.collapsed) {
+  background-color: rgba(34, 139, 34, 0.1);
+  color: #228b22;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.2rem rgba(34, 139, 34, 0.25);
+}
+
+.accordion-item {
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heroSection {
+    text-align: center;
+  }
+
+  .serviceIcon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .stepNumber {
+    width: 50px;
+    height: 50px;
+    font-size: 1.25rem;
+  }
+
+  .price {
+    font-size: 1.25rem;
+  }
+}
+
+/* Animation for cards */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.serviceCard,
+.priceCard {
+  animation: slideUp 0.6s ease-out;
+}
+
+.serviceCard:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.serviceCard:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.serviceCard:nth-child(4) {
+  animation-delay: 0.3s;
+}

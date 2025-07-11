@@ -51,25 +51,25 @@ export default function Navbar() {
               </a>
               <ul className="dropdown-menu border-0 py-0">
                 <li>
-                  <Link className="dropdown-item fw-semibold f_14 d-flex align-items-center" href="/action">
+                  <Link className="dropdown-item fw-semibold f_14 d-flex align-items-center" href="/services/scrap-dealing">
                     <Recycle size={16} className="me-2 text-success" />
                     Scrap Dealing
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item fw-semibold f_14 d-flex align-items-center" href="/action">
+                  <Link className="dropdown-item fw-semibold f_14 d-flex align-items-center" href="/services/e-waste-services">
                     <Monitor size={16} className="me-2 text-success" />
                     E Waste Services
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item fw-semibold f_14 d-flex align-items-center" href="/another-action">
+                  <Link className="dropdown-item fw-semibold f_14 d-flex align-items-center" href="/services/demolition-services">
                     <Building2 size={16} className="me-2 text-success" />
                     Demolition Services
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item fw-semibold f_14 d-flex align-items-center" href="/something-else">
+                  <Link className="dropdown-item fw-semibold f_14 d-flex align-items-center" href="/services/facility-decommissioning">
                     <Wrench size={16} className="me-2 text-success" />
                     Facility Decommissioning
                   </Link>
