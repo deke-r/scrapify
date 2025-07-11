@@ -1,3 +1,11 @@
+export const metadata = {
+  title: "Scrapify – Certified E-Waste Management & Collection in Delhi NCR",
+  description:
+    "Scrapify offers secure and certified e-waste collection services for businesses across Delhi, Noida, Gurugram & NCR. From computers to office electronics, we ensure safe data destruction and eco-friendly recycling. Book a compliant e-waste pickup with instant support & GST invoicing.",
+  keywords:
+    "e-waste management Delhi, electronic waste pickup Noida, secure data destruction, certified e-waste recycler Gurugram, office electronics recycling, computer disposal Delhi NCR, eco-friendly e-waste solution, IT scrap collection, Scrapify e-waste, industrial e-waste disposal, corporate e-waste service",
+}
+
 import ModalButton from "@/components/ModalButton"
 import styles from "../../../styles/e-waste.module.css"
 
@@ -62,16 +70,12 @@ export default function EWasteServices() {
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
-              <h2 className="fw-bold mb-4">Professional E-Waste Management</h2>
+              <h2 className="fw-bold mb-4">Professional E-Waste Management Services</h2>
               <p className="f_16 text-justify mb-4">
-                Scrapify specializes in the safe collection, processing, and recycling of electronic waste. We ensure
-                that your old electronics are disposed of responsibly while recovering valuable materials and protecting
-                sensitive data through secure destruction processes.
+                At Scrapify, we specialize in the certified collection, processing, and recycling of electronic waste across Delhi NCR. Our services are designed to help businesses, offices, and institutions safely dispose of outdated or unused electronics — including laptops, servers, printers, and other IT assets — with complete data security.
               </p>
               <p className="f_16 text-justify mb-4">
-                Our certified e-waste management process follows strict environmental guidelines and data security
-                protocols. We handle everything from small consumer electronics to large-scale corporate IT equipment
-                disposal.
+              We follow strict environmental and regulatory compliance standards, ensuring all e-waste is handled responsibly. From pickup to certified data destruction and authorized recycling, Scrapify offers end-to-end e-waste solutions that minimize risk and maximize resource recovery.
               </p>
             </div>
             <div className="col-lg-4">

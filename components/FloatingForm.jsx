@@ -36,30 +36,31 @@ export default function FloatingForm() {
         <div className={`container shadow rounded-5 p-5 ${styles.floatingBox}`}>
           <div className="row px-md-4 align-items-center">
             {/* Left Section */}
-            <div className="col-md-8 px-md-3 mb-3 mb-md-0">
-              <h2 className="fw-bold f_50">
-                Turn Your Scrap into Value with <br />
-                <span className="text-success">Scrapify</span>.
-              </h2>
-              <p className="mb-3 text-justify fw-semibold text-muted">
-                Experience a smarter way to dispose of your scrap. With our tech-driven, eco-conscious approach, we make recycling effortless and rewarding.
-              </p>
+  <div className="col-md-8 px-md-3 mb-3 mb-md-0">
+  <h2 className="fw-bold f_50">
+    Bulk Scrap & E-Waste Pickup for <br />
+    Offices, Societies & Industries
+  </h2>
+  <p className="mb-3 text-justify fw-semibold text-muted">
+    Scrapify makes bulk scrap and electronic waste collection effortless for businesses, RWAs, factories, and institutions across Delhi NCR—including Noida, Gurugram, Ghaziabad & Faridabad. Get fast pickups, fair scrap rates, and certified green disposal.
+  </p>
 
-              <ul className="list-unstyled text-muted fw-semibold mb-0">
-                <li className="mb-2 d-flex align-items-start">
-                  <ArrowRight size={16} className="text-success me-2 mt-1" />
-                  Book pickups online or via WhatsApp in seconds.
-                </li>
-                <li className="mb-2 d-flex align-items-start">
-                  <ArrowRight size={16} className="text-success me-2 mt-1" />
-                  Transparent pricing with instant digital payments.
-                </li>
-                <li className="mb-2 d-flex align-items-start">
-                  <ArrowRight size={16} className="text-success me-2 mt-1" />
-                  Trusted by households and businesses across NCR.
-                </li>
-              </ul>
-            </div>
+  <ul className="list-unstyled text-muted fw-semibold mb-0">
+    <li className="mb-2 d-flex align-items-start">
+      <ArrowRight size={16} className="text-success me-2 mt-1" />
+      Book bulk pickups instantly via WhatsApp or online.
+    </li>
+    <li className="mb-2 d-flex align-items-start">
+      <ArrowRight size={16} className="text-success me-2 mt-1" />
+      Transparent scrap pricing with instant UPI or bank payments.
+    </li>
+    <li className="mb-2 d-flex align-items-start">
+      <ArrowRight size={16} className="text-success me-2 mt-1" />
+      Receive GST-compliant invoices and Green Recycling Certificates.
+    </li>
+  </ul>
+</div>
+
 
             {/* Right Section */}
             <div className="col-md-4 px-md-3 d-flex flex-column align-items-center">

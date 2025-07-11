@@ -1,3 +1,11 @@
+export const metadata = {
+  title: "Scrapify – Certified Demolition & Site Clearance Services in Delhi NCR",
+  description:
+    "Scrapify provides professional demolition services for factories, warehouses, and office spaces in Delhi, Noida, Gurugram & NCR. We offer safe dismantling, scrap recovery, and complete site clearance with safety compliance and certified scrap disposal.",
+  keywords:
+    "demolition services Delhi NCR, industrial demolition Noida, factory dismantling Gurugram, certified site clearance Delhi, machine removal Noida, scrap disposal service, office demolition contractor, Scrapify demolition solutions, interior strip-out Delhi, commercial demolition services NCR",
+}
+
 import ModalButton from "@/components/ModalButton"
 import styles from "../../../styles/demolition.module.css"
 
@@ -64,14 +72,10 @@ export default function DemolitionServices() {
             <div className="col-lg-8">
               <h2 className="fw-bold mb-4">Professional Demolition Solutions</h2>
               <p className="f_16 text-justify mb-4">
-                Scrapify offers comprehensive demolition services for residential, commercial, and industrial
-                structures. Our experienced team uses advanced equipment and follows strict safety protocols to ensure
-                efficient demolition while maximizing material recovery and recycling opportunities.
+              At Scrapify, we provide end-to-end demolition services for commercial, industrial, and institutional properties across Delhi NCR. Our trained demolition team uses advanced equipment and adheres to strict safety and environmental protocols to ensure smooth, compliant, and efficient project execution.
               </p>
               <p className="f_16 text-justify mb-4">
-                With decades of combined experience, our certified demolition experts handle projects of all sizes, from
-                small residential teardowns to large-scale industrial facility demolitions. We prioritize safety,
-                environmental responsibility, and material recovery in every project.
+             With years of experience in structural dismantling, interior strip-outs, and equipment removal, we handle projects of every scale — from office floor demolitions to large industrial facility teardowns. Every job is executed with a focus on material recovery, eco-friendly scrap disposal, and site readiness for future development.
               </p>
             </div>
             <div className="col-lg-4">

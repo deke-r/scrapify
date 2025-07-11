@@ -1,3 +1,12 @@
+export const metadata = {
+  title: "Scrapify – Facility Decommissioning & Asset Clearance Services in Delhi NCR",
+  description:
+    "Scrapify provides certified facility decommissioning services in Delhi, Noida, and Gurugram. We handle machinery dismantling, IT asset clearance, scrap removal & GST invoicing for safe and compliant site shutdowns. Trusted by companies across NCR.",
+  keywords:
+    "facility decommissioning Delhi, machine dismantling Noida, office clearance Gurugram, industrial relocation service NCR, equipment removal Delhi NCR, IT asset disposal, scrap clearance company, GST scrap invoicing, Scrapify decommissioning, certified asset removal Delhi",
+}
+
+
 import ModalButton from "@/components/ModalButton"
 import styles from "../../../styles/facility-decommissioning.module.css"
 import {
@@ -66,16 +75,12 @@ export default function FacilityDecommissioning() {
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
-              <h2 className="fw-bold mb-4">Comprehensive Facility Decommissioning</h2>
+              <h2 className="fw-bold mb-4">Facility Decommissioning Services</h2>
               <p className="f_16 text-justify mb-4">
-                Scrapify provides end-to-end facility decommissioning services for businesses closing operations or
-                relocating. We handle everything from asset inventory and equipment removal to site cleanup and
-                environmental remediation, ensuring maximum value recovery and regulatory compliance.
+               Scrapify offers specialized decommissioning services for industrial, commercial, and institutional facilities across Delhi, Noida, Gurugram, and surrounding NCR. Whether you're relocating, closing down operations, or upgrading infrastructure, our team ensures a safe, structured, and regulation-compliant shutdown process.
               </p>
               <p className="f_16 text-justify mb-4">
-                Our systematic approach combines decades of experience with cutting-edge technology to deliver
-                comprehensive decommissioning solutions. We work closely with facility owners, environmental
-                consultants, and regulatory agencies to ensure smooth project execution.
+              We manage the dismantling and removal of machinery, electrical panels, furniture, HVAC systems, and all scrap material generated in the process — with full traceability, valuation reports, and GST invoicing. Our turnkey service reduces downtime, eliminates risk, and ensures complete site readiness for your next phase.
               </p>
             </div>
             <div className="col-lg-4">

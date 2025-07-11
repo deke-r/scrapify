@@ -1,3 +1,13 @@
+export const metadata = {
+  title: "Scrapify – Scrap Dealing Services for Businesses in Delhi NCR",
+  description:
+    "Scrapify provides end-to-end scrap dealing solutions for companies, factories, and societies across Delhi, Noida, Gurugram & Ghaziabad. We handle all types of bulk scrap including metal, plastic, paper, furniture, and e-waste. Get instant digital payments, GST invoices, and certified recycling services.",
+  keywords:
+    "scrap dealing Delhi NCR, scrap management services, scrap dealers Noida, bulk scrap pickup Gurugram, commercial scrap buyers Ghaziabad, metal scrap Delhi, office scrap disposal, industrial scrap solutions, GST scrap pickup, certified scrap collection services, Scrapify scrap services",
+}
+
+
+
 import ModalButton from "@/components/ModalButton"
 import styles from "../../../styles/scrap-dealing.module.css"
 import {
@@ -5,7 +15,10 @@ import {
   Newspaper,
   FlaskConical,
   BatteryCharging,
-} from "lucide-react"
+  MonitorSmartphone,
+  Sofa
+} from "lucide-react";
+
 
 export default function ScrapDealing() {
   const faqItems = [
@@ -44,7 +57,7 @@ export default function ScrapDealing() {
                 into valuable resources.
               </p>
               <div className="d-flex gap-3">
-                <ModalButton variant='white'/>
+                <ModalButton variant='white' />
               </div>
             </div>
             <div className="col-lg-6">
@@ -65,14 +78,10 @@ export default function ScrapDealing() {
             <div className="col-lg-8">
               <h2 className="fw-bold mb-4">Comprehensive Scrap Dealing Solutions</h2>
               <p className="f_16 text-justify mb-4">
-                At Scrapify, we provide end-to-end scrap dealing services that help businesses and individuals convert
-                their waste materials into valuable resources. Our professional team ensures efficient collection, fair
-                pricing, and environmentally responsible processing of all types of scrap materials.
+                At Scrapify, we offer end-to-end scrap management solutions that help businesses convert their waste materials into valuable resources. Our trained team ensures fast, reliable collection, fair pricing, and environmentally responsible processing for all types of scrap — including metal, plastic, cardboard, e-waste, and furniture.
               </p>
               <p className="f_16 text-justify mb-4">
-                With years of experience in the scrap industry, we have built a reputation for reliability,
-                transparency, and competitive pricing. Our state-of-the-art facilities and trained professionals ensure
-                that your scrap materials are handled with care and processed efficiently.
+                With years of industry experience, Scrapify has earned a reputation for reliability, transparency, and competitive rates. Backed by modern equipment and certified recycling partners, we ensure your scrap is handled with care and processed efficiently in compliance with environmental standards.
               </p>
             </div>
             <div className="col-lg-4">
@@ -109,98 +118,138 @@ export default function ScrapDealing() {
       </section>
 
 
-    <section className="py-5 bg-light">
-      <div className="container">
-        <div className="row">
-          <div className="col-12 text-center mb-5">
-            <h2 className="fw-bold mb-3">Our Scrap Collection Services</h2>
-            <p className="lead f_16 text-muted">
-              Comprehensive solutions for all types of scrap materials
-            </p>
-          </div>
-        </div>
-        <div className="row">
-          {/* Metal Scrap */}
-          <div className="col-lg-6 mb-4">
-            <div className={`${styles.serviceCard} card h-100 border-0 shadow-sm hover-card`}>
-              <div className="card-body p-4">
-                <div className="d-flex align-items-start">
-                  <div className={`${styles.serviceIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0`} style={{ width: 50, height: 50 }}>
-                    <Recycle size={24} />
-                  </div>
-                  <div>
-                    <h5 className="fw-bold mb-2">Metal Scrap Collection</h5>
-                    <p className="f_15 text-muted mb-0">
-                      We collect and process all types of metal scraps including iron, steel, aluminum, copper, and brass with competitive pricing and immediate payment.
-                    </p>
-                  </div>
-                </div>
+     <section className="py-5 bg-light">
+  <div className="container">
+    <div className="row">
+      <div className="col-12 text-center mb-5">
+        <h2 className="fw-bold mb-3">Our Scrap Collection Services</h2>
+        <p className="lead f_16 text-muted">
+          Comprehensive solutions for all types of scrap materials
+        </p>
+      </div>
+    </div>
+
+    <div className="row">
+      {/* Metal Scrap Collection */}
+      <div className="col-lg-6 mb-4">
+        <div className={`${styles.serviceCard} card h-100 border-0 shadow-sm hover-card`}>
+          <div className="card-body p-4">
+            <div className="d-flex align-items-start">
+              <div className={`${styles.serviceIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0`} style={{ width: 50, height: 50 }}>
+                <Recycle size={24} />
+              </div>
+              <div>
+                <h5 className="fw-bold mb-2">Metal Scrap Collection</h5>
+                <p className="f_15 text-muted mb-0">
+                  We collect and purchase all types of metal scrap, including iron, steel, copper, aluminum, and brass. Our services ensure competitive rates, digital weighing, and instant payments — ideal for factories, warehouses, and commercial sites.
+                </p>
               </div>
             </div>
           </div>
-
-          {/* Paper & Cardboard */}
-          <div className="col-lg-6 mb-4">
-            <div className={`${styles.serviceCard} card h-100 border-0 shadow-sm hover-card`}>
-              <div className="card-body p-4">
-                <div className="d-flex align-items-start">
-                  <div className={`${styles.serviceIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0`} style={{ width: 50, height: 50 }}>
-                    <Newspaper size={24} />
-                  </div>
-                  <div>
-                    <h5 className="fw-bold mb-2">Paper & Cardboard</h5>
-                    <p className="f_15 text-muted mb-0">
-                      Efficient collection and recycling of newspapers, magazines, cardboard boxes, and office paper waste with proper sorting and processing.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Plastic Materials */}
-          <div className="col-lg-6 mb-4">
-            <div className={`${styles.serviceCard} card h-100 border-0 shadow-sm hover-card`}>
-              <div className="card-body p-4">
-                <div className="d-flex align-items-start">
-                  <div className={`${styles.serviceIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0`} style={{ width: 50, height: 50 }}>
-                    <FlaskConical size={24} />
-                  </div>
-                  <div>
-                    <h5 className="fw-bold mb-2">Plastic Materials</h5>
-                    <p className="f_15 text-muted mb-0">
-                      Comprehensive plastic waste management including bottles, containers, and industrial plastic materials with proper categorization.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Battery Recycling */}
-          <div className="col-lg-6 mb-4">
-            <div className={`${styles.serviceCard} card h-100 border-0 shadow-sm hover-card`}>
-              <div className="card-body p-4">
-                <div className="d-flex align-items-start">
-                  <div className={`${styles.serviceIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0`} style={{ width: 50, height: 50 }}>
-                    <BatteryCharging size={24} />
-                  </div>
-                  <div>
-                    <h5 className="fw-bold mb-2">Battery Recycling</h5>
-                    <p className="f_15 text-muted mb-0">
-                      Safe collection and disposal of automotive batteries, UPS batteries, and other battery types with environmental compliance.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
-    </section>
 
-      
+      {/* Paper & Cardboard Waste */}
+      <div className="col-lg-6 mb-4">
+        <div className={`${styles.serviceCard} card h-100 border-0 shadow-sm hover-card`}>
+          <div className="card-body p-4">
+            <div className="d-flex align-items-start">
+              <div className={`${styles.serviceIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0`} style={{ width: 50, height: 50 }}>
+                <Newspaper size={24} />
+              </div>
+              <div>
+                <h5 className="fw-bold mb-2">Paper & Cardboard Waste</h5>
+                <p className="f_15 text-muted mb-0">
+                  We offer efficient collection and recycling of cardboard boxes, newspapers, shredded office paper, and packaging waste. Scrapify ensures proper sorting and eco-friendly processing in partnership with certified recyclers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Plastic Scrap Collection */}
+      <div className="col-lg-6 mb-4">
+        <div className={`${styles.serviceCard} card h-100 border-0 shadow-sm hover-card`}>
+          <div className="card-body p-4">
+            <div className="d-flex align-items-start">
+              <div className={`${styles.serviceIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0`} style={{ width: 50, height: 50 }}>
+                <FlaskConical size={24} />
+              </div>
+              <div>
+                <h5 className="fw-bold mb-2">Plastic Scrap Collection</h5>
+                <p className="f_15 text-muted mb-0">
+                  We handle industrial and post-consumer plastic waste including PET bottles, HDPE containers, shrink wraps, crates, and more — sorted at source for effective recycling and material recovery.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Battery Recycling */}
+      <div className="col-lg-6 mb-4">
+        <div className={`${styles.serviceCard} card h-100 border-0 shadow-sm hover-card`}>
+          <div className="card-body p-4">
+            <div className="d-flex align-items-start">
+              <div className={`${styles.serviceIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0`} style={{ width: 50, height: 50 }}>
+                <BatteryCharging size={24} />
+              </div>
+              <div>
+                <h5 className="fw-bold mb-2">Battery Recycling</h5>
+                <p className="f_15 text-muted mb-0">
+                  Our team safely collects and disposes of used automotive, inverter, and UPS batteries. All battery scrap is processed in compliance with environmental norms, with proper documentation and disposal certificates.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* E-Waste Collection */}
+      <div className="col-lg-6 mb-4">
+        <div className={`${styles.serviceCard} card h-100 border-0 shadow-sm hover-card`}>
+          <div className="card-body p-4">
+            <div className="d-flex align-items-start">
+              <div className={`${styles.serviceIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0`} style={{ width: 50, height: 50 }}>
+                <MonitorSmartphone size={24} />
+              </div>
+              <div>
+                <h5 className="fw-bold mb-2">E-Waste Collection</h5>
+                <p className="f_15 text-muted mb-0">
+                  Scrapify offers hassle-free pickup of outdated or damaged electronic equipment such as computers, monitors, printers, routers, and servers. All e-waste is recycled through authorized channels with proper certification for compliance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Furniture Disposal */}
+      <div className="col-lg-6 mb-4">
+        <div className={`${styles.serviceCard} card h-100 border-0 shadow-sm hover-card`}>
+          <div className="card-body p-4">
+            <div className="d-flex align-items-start">
+              <div className={`${styles.serviceIcon} bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0`} style={{ width: 50, height: 50 }}>
+                <Sofa size={24} />
+              </div>
+              <div>
+                <h5 className="fw-bold mb-2">Furniture Disposal</h5>
+                <p className="f_15 text-muted mb-0">
+                  We provide professional pickup and eco-conscious disposal of office chairs, desks, workstations, and storage units. Ideal for office renovations, clear-outs, or shutdowns — all handled responsibly.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
       <section className="py-5">
         <div className="container">
           <div className="row">
@@ -266,7 +315,7 @@ export default function ScrapDealing() {
         </div>
       </section>
 
-     
+
       {/* <section className="py-5 bg-light">
         <div className="container">
           <div className="row">
@@ -363,7 +412,7 @@ export default function ScrapDealing() {
                 Get the best prices for your scrap materials with our professional dealing services.
               </p>
               <div className="d-flex gap-3 justify-content-center">
-              <ModalButton variant='white'/>
+                <ModalButton variant='white' />
               </div>
             </div>
           </div>

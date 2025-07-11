@@ -14,11 +14,11 @@ export default function About() {
             <div className="col-lg-6">
               <h1 className="display-4 fw-bold mb-4">About Scrapify</h1>
               <p className="lead f_18 mb-4">
-                Empowering businesses and developers with intelligent web scraping solutions that transform how you
-                collect and analyze web data.
+                Scrapify is a professional scrap management company serving businesses, housing societies, and institutions across Delhi NCR. We offer doorstep pickup, e-waste disposal, and facility decommissioning with a focus on transparency, sustainability, and instant payment.
+                Trusted by commercial clients and bulk scrap generators, Scrapify combines the convenience of an online kabadiwala with the efficiency of certified waste management.
               </p>
               <div className="d-flex gap-3">
-            <ModalButton variant="white"/>
+                <ModalButton variant="white" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -41,12 +41,10 @@ export default function About() {
         <div className="container">
           <div className="row">
             <div className="col-lg-8 mx-auto text-center">
-              <Header h2='Our Mission'/>
+              <Header h2='Our Mission' />
               <p className="lead f_17 text-justify">
-                At Scrapify, we believe that data should be accessible to everyone. Our mission is to democratize web
-                scraping by providing powerful, user-friendly tools that make data extraction simple, efficient, and
-                ethical. We're committed to helping businesses of all sizes harness the power of web data to make
-                informed decisions and drive growth.
+                At Scrapify, our mission is to revolutionize the scrap collection process by making it smart, seamless, and sustainable. We aim to empower businesses, housing societies, and institutions to dispose of their scrap responsibly — while ensuring complete transparency, fair pricing, and eco-friendly practices at every step.
+                From bulk pickup and e-waste collection to facility decommissioning and recycling — we’re committed to building a cleaner, greener future across Delhi NCR.
               </p>
             </div>
           </div>
@@ -54,9 +52,9 @@ export default function About() {
       </section>
 
 
-<WhyScrapify/>
+      <WhyScrapify />
 
- <StatsSection/>
+      <StatsSection />
 
 
 
@@ -70,7 +68,7 @@ export default function About() {
                 Join thousands of developers and businesses who trust Scrapify for their data needs.
               </p>
               <div className="d-flex gap-3 justify-content-center">
-              <ModalButton variant="white"/>
+                <ModalButton variant="white" />
               </div>
             </div>
           </div>

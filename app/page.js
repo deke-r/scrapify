@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "Home | Scrapify - Turn Scrap into Value",
+  title: "Scrapify – Bulk Scrap & E-Waste Pickup in Delhi, Noida, Gurugram",
   description:
-    "Book your doorstep scrap pickup with Scrapify and get paid instantly. Trusted across NCR for eco-friendly and transparent scrap disposal services.",
+    "Scrapify offers certified bulk scrap pickup, e-waste collection & facility decommissioning in Delhi NCR. For societies, companies & industries. Instant payment, GST invoices,Book your doorstep scrap pickup with Scrapify and get paid instantly. Trusted across NCR for eco-friendly and transparent scrap disposal services.",
   keywords:
-    "scrap pickup NCR, scrapify booking, instant scrap payment, online scrap collection, recycling service India",
+    "bulk scrap pickup Delhi, online kabadiwala Noida, scrap dealer Gurugram, e-waste collection Ghaziabad, scrap buyers Faridabad, industrial scrap Delhi NCR, kabadiwala for companies, commercial scrap buyers,scrap pickup NCR, scrapify booking, instant scrap payment, online scrap collection, recycling service India,online kabadiwala",
 }
 import Banner from "@/components/Banner";
 import FloatingForm from "@/components/FloatingForm";
