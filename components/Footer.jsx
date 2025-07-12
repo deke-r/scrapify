@@ -187,7 +187,7 @@ Udyog Kendra 1, Ecotech 3,Greater Noida 201306</span>
         <div className="row py-4 border-top border-secondary">
           <div className="col-lg-6 col-md-6 mb-2 mb-md-0">
             <p className="footer-copyright mb-0">
-              &copy; 2024 <span className="text-success">Scrapify</span>. All rights reserved.
+              &copy; 2025 <span className="text-success">Scrapify</span>. All rights reserved.
             </p>
           </div>
           <div className="col-lg-6 col-md-6">
