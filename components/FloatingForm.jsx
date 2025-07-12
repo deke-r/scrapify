@@ -20,7 +20,7 @@ export default function FloatingForm() {
   } = useForm()
 
   const handleBookNow = async (data) => {
-      setShowModal(true)
+    setShowModal(true)
     const { phone } = data
     try {
       await axios.post("/api/leads", { phone })
@@ -36,30 +36,30 @@ export default function FloatingForm() {
         <div className={`container shadow rounded-5 p-5 ${styles.floatingBox}`}>
           <div className="row px-md-4 align-items-center">
             {/* Left Section */}
-  <div className="col-md-8 px-md-3 mb-3 mb-md-0">
-  <h2 className="fw-bold f_50">
-    Bulk Scrap & E-Waste Pickup for <br />
-    Offices, Societies & Industries
-  </h2>
-  <p className="mb-3 text-justify fw-semibold text-muted">
-    Scrapify makes bulk scrap and electronic waste collection effortless for businesses, RWAs, factories, and institutions across Delhi NCR—including Noida, Gurugram, Ghaziabad & Faridabad. Get fast pickups, fair scrap rates, and certified green disposal.
-  </p>
+            <div className="col-md-8 px-md-3 mb-3 mb-md-0">
+              <h1 className="fw-bold f_50">
+                Bulk Scrap & E-Waste Pickup for <br />
+                Offices, Societies & Industries
+              </h1>
+              <p className="mb-3 text-justify fw-semibold text-muted">
+                Scrapify makes bulk scrap and electronic waste collection effortless for businesses, RWAs, factories, and institutions across Delhi NCR—including Noida, Gurugram, Ghaziabad & Faridabad. Get fast pickups, fair scrap rates, and certified green disposal.
+              </p>
 
-  <ul className="list-unstyled text-muted fw-semibold mb-0">
-    <li className="mb-2 d-flex align-items-start">
-      <ArrowRight size={16} className="text-success me-2 mt-1" />
-      Book bulk pickups instantly via WhatsApp or online.
-    </li>
-    <li className="mb-2 d-flex align-items-start">
-      <ArrowRight size={16} className="text-success me-2 mt-1" />
-      Transparent scrap pricing with instant UPI or bank payments.
-    </li>
-    <li className="mb-2 d-flex align-items-start">
-      <ArrowRight size={16} className="text-success me-2 mt-1" />
-      Receive GST-compliant invoices and Green Recycling Certificates.
-    </li>
-  </ul>
-</div>
+              <ul className="list-unstyled text-muted fw-semibold mb-0">
+                <li className="mb-2 d-flex align-items-start">
+                  <ArrowRight size={16} className="text-success me-2 mt-1" />
+                  Book bulk pickups instantly via WhatsApp or online.
+                </li>
+                <li className="mb-2 d-flex align-items-start">
+                  <ArrowRight size={16} className="text-success me-2 mt-1" />
+                  Transparent scrap pricing with instant UPI or bank payments.
+                </li>
+                <li className="mb-2 d-flex align-items-start">
+                  <ArrowRight size={16} className="text-success me-2 mt-1" />
+                  Receive GST-compliant invoices and Green Recycling Certificates.
+                </li>
+              </ul>
+            </div>
 
 
             {/* Right Section */}
@@ -84,17 +84,17 @@ export default function FloatingForm() {
                   type="submit"
                   className="btn btn-success rounded-4 py-3 w-100 f_13 fw-semibold px-4  mt-2"
                 >
-                  Book Now 
-                    <MousePointerClick />
+                  Book Now
+                  <MousePointerClick />
                 </button>
                 <p className="f_14 fw-semibold text-muted mt-2 ms-2">
                   <i>
-                  Facing Problems? Call us at  
-                  <span className="text-success ms-1">
-                   +91-1234567890
-                  </span>
+                    Facing Problems? Call us at
+                    <span className="text-success ms-1">
+                      +91-1234567890
+                    </span>
                   </i>
-                  </p>
+                </p>
               </form>
             </div>
           </div>

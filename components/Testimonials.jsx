@@ -129,13 +129,13 @@ export default function Testimonials() {
                 <div className={`${styles.statsSection} row mt-5 py-4`}>
                     <div className="col-md-3 text-center mb-3">
                         <div className={styles.statItem}>
-                            <h3 className="fw-bold text-success mb-1">15,000+</h3>
+                            <h3 className="fw-bold text-success mb-1">9,999+</h3>
                             <p className="f_14 text-muted mb-0">Records Extracted</p>
                         </div>
                     </div>
                     <div className="col-md-3 text-center mb-3">
                         <div className={styles.statItem}>
-                            <h3 className="fw-bold text-success mb-1">1,200+</h3>
+                            <h3 className="fw-bold text-success mb-1">1,140+</h3>
                             <p className="f_14 text-muted mb-0">Active Users</p>
                         </div>
                     </div>

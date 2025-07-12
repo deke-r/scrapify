@@ -32,6 +32,28 @@
   z-index: 2;
 }
 
+
+@media (max-width: 576px) {
+  .heroSection {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+
+  .heroSection h1 {
+    font-size: 1.75rem;
+  }
+
+  .heroSection h3 {
+    font-size: 1.25rem;
+  }
+
+  .heroImage {
+    margin-bottom: 2rem;
+  }
+}
+
+
 .processCard {
   border-radius: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;

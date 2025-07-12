@@ -1,10 +1,38 @@
 export const metadata = {
-  title: "Scrapify – Scrap Dealing Services for Businesses in Delhi NCR",
+  title: "Scrap Dealing Services in Delhi NCR – Scrapify",
   description:
-    "Scrapify provides end-to-end scrap dealing solutions for companies, factories, and societies across Delhi, Noida, Gurugram & Ghaziabad. We handle all types of bulk scrap including metal, plastic, paper, furniture, and e-waste. Get instant digital payments, GST invoices, and certified recycling services.",
+    "End-to-end scrap pickup and disposal for businesses in Delhi NCR. Metal, plastic, e-waste & more. Instant payment, GST invoice, certified recycling.",
   keywords:
     "scrap dealing Delhi NCR, scrap management services, scrap dealers Noida, bulk scrap pickup Gurugram, commercial scrap buyers Ghaziabad, metal scrap Delhi, office scrap disposal, industrial scrap solutions, GST scrap pickup, certified scrap collection services, Scrapify scrap services",
-}
+  alternates: {
+    canonical: "https://scrapify.in/services/scrap-dealing",
+  },
+  openGraph: {
+    title: "Scrap Dealing Services in Delhi NCR – Scrapify",
+    description:
+      "Bulk scrap pickup and certified recycling for companies in Delhi NCR. Instant UPI payment, GST billing, and all material types covered.",
+    url: "https://scrapify.in/services/scrap-dealing",
+    siteName: "Scrapify",
+    images: [
+      {
+        url: "https://scrapify.in/og-cover.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Scrap Dealing Services by Scrapify",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Scrap Dealing Services in Delhi NCR – Scrapify",
+    description:
+      "Scrapify handles scrap pickup and disposal for industries, societies & offices. Certified service with instant payout and GST invoices.",
+    images: ["https://scrapify.in/og-cover.jpg"],
+    creator: "@scrapify",
+  },
+};
 
 
 
@@ -47,29 +75,30 @@ export default function ScrapDealing() {
   return (
     <div className="min-vh-100">
       {/* Hero Section */}
-      <section className={`${styles.heroSection} bg-gradient-success text-white py-5`}>
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <h1 className="display-4 fw-bold mb-4">Scrap Dealing Services</h1>
-              <p className="lead f_18 mb-4">
-                Professional scrap collection, processing, and recycling solutions that help you convert waste materials
-                into valuable resources.
-              </p>
-              <div className="d-flex gap-3">
-                <ModalButton variant='white' />
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <img
-                src="/placeholder.svg?height=400&width=600"
-                alt="Scrap Dealing Services"
-                className="img-fluid rounded-3 shadow-lg"
-              />
-            </div>
-          </div>
+    <section className={`${styles.heroSection} bg-gradient-success text-white py-5`}>
+  <div className="container">
+    <div className="row align-items-center">
+      <div className="col-lg-6 order-1 order-lg-2 text-center mb-4 mb-lg-0">
+        <img
+          src="/img/car-dump-cartoon-icons-set-with-crushed-autos-isolated-vector-illustration_1284-81098 (2).avif"
+          alt="Scrap Dealing Services"
+          className="img-fluid rounded-3 shadow-lg"
+        />
+      </div>
+      <div className="col-lg-6 order-2 order-lg-1 text-center text-lg-start">
+        <h1 className="display-5 fw-bold mb-3">Scrap Dealing Services</h1>
+        <p className="lead f_18 mb-4">
+          Professional scrap collection, processing, and recycling solutions that help you convert waste materials
+          into valuable resources.
+        </p>
+        <div className="d-flex justify-content-center justify-content-lg-start gap-3">
+          <ModalButton variant="white" />
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Overview Section */}
       <section className="py-5">

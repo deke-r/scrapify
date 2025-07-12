@@ -1,10 +1,38 @@
 export const metadata = {
-  title: "Scrapify – Facility Decommissioning & Asset Clearance Services in Delhi NCR",
+  title: "Facility Decommissioning in Delhi NCR – Scrapify",
   description:
-    "Scrapify provides certified facility decommissioning services in Delhi, Noida, and Gurugram. We handle machinery dismantling, IT asset clearance, scrap removal & GST invoicing for safe and compliant site shutdowns. Trusted by companies across NCR.",
+    "Certified decommissioning and asset clearance in Delhi NCR. Machinery removal, IT asset disposal, GST billing, and safe site closure.",
   keywords:
     "facility decommissioning Delhi, machine dismantling Noida, office clearance Gurugram, industrial relocation service NCR, equipment removal Delhi NCR, IT asset disposal, scrap clearance company, GST scrap invoicing, Scrapify decommissioning, certified asset removal Delhi",
-}
+  alternates: {
+    canonical: "https://scrapify.in/services/facility-decommissioning",
+  },
+  openGraph: {
+    title: "Facility Decommissioning in Delhi NCR – Scrapify",
+    description:
+      "Get certified facility decommissioning and scrap clearance in NCR. Machinery, IT assets, GST invoicing, trusted by corporates.",
+    url: "https://scrapify.in/services/facility-decommissioning",
+    siteName: "Scrapify",
+    images: [
+      {
+        url: "https://scrapify.in/og-cover.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Facility Decommissioning by Scrapify",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Facility Decommissioning in Delhi NCR – Scrapify",
+    description:
+      "Scrapify handles certified facility decommissioning with GST billing and safe asset disposal across Delhi NCR.",
+    images: ["https://scrapify.in/og-cover.jpg"],
+    creator: "@scrapify",
+  },
+};
 
 
 import ModalButton from "@/components/ModalButton"
@@ -42,33 +70,37 @@ export default function FacilityDecommissioning() {
   return (
     <div className="min-vh-100">
       {/* Hero Section */}
-      <section className={`${styles.heroSection} bg-gradient-success text-white py-5`}>
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className={`${styles.complianceBadge} mb-3`}>
-                <i className="fas fa-certificate me-2"></i>
-                EPA Compliant
-              </div>
-              <h1 className="display-4 fw-bold mb-4">Facility Decommissioning Services</h1>
-              <p className="lead f_18 mb-4">
-                Complete facility shutdown and asset recovery solutions with maximum value recovery and environmental
-                compliance.
-              </p>
-              <div className="d-flex gap-3">
-                <ModalButton text="Request Assessment" variant="white"/>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <img
-                src="/placeholder.svg?height=400&width=600"
-                alt="Facility Decommissioning Services"
-                className="img-fluid rounded-3 shadow-lg"
-              />
-            </div>
-          </div>
+ <section className={`${styles.heroSection} bg-gradient-success text-white py-5`}>
+  <div className="container">
+    <div className="row align-items-center">
+
+      <div className="col-lg-6 order-1 order-lg-2 text-center mb-4 mb-lg-0">
+        <img
+          src="/img/illustration-open-waste-disposal-site_1150725-591.avif"
+          alt="Facility Decommissioning Services"
+          className="img-fluid rounded-3 shadow-lg"
+        />
+      </div>
+
+      <div className="col-lg-6 order-2 order-lg-1 text-center text-lg-start">
+        <div className={`${styles.complianceBadge} mb-3`}>
+          <i className="fas fa-certificate me-2"></i>
+          EPA Compliant
         </div>
-      </section>
+        <h1 className="display-5 fw-bold mb-3">Facility Decommissioning Services</h1>
+        <p className="lead f_18 mb-4">
+          Complete facility shutdown and asset recovery solutions with maximum value recovery and environmental
+          compliance.
+        </p>
+        <div className="d-flex justify-content-center justify-content-lg-start gap-3">
+          <ModalButton text="Request Assessment" variant="white" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
       {/* Overview Section */}
       <section className="py-5">

@@ -75,22 +75,22 @@ Udyog Kendra 1, Ecotech 3,Greater Noida 201306</span>
               <h5 className="footer-title mb-3">Our Services</h5>
               <ul className="footer-links list-unstyled">
                 <li>
-                  <a href="/action" className="footer-link">
+                  <a href="/services/scrap-dealing" className="footer-link">
                     Scrap Dealing
                   </a>
                 </li>
                 <li>
-                  <a href="/action" className="footer-link">
+                  <a href="/services/e-waste-services" className="footer-link">
                     E Waste Services
                   </a>
                 </li>
                 <li>
-                  <a href="/another-action" className="footer-link">
+                  <a href="/services/demolition-services" className="footer-link">
                     Demolition Services
                   </a>
                 </li>
                 <li>
-                  <a href="/something-else" className="footer-link">
+                  <a href="/services/facility-decommissioning" className="footer-link">
                     Facility Decommissioning
                   </a>
                 </li>
@@ -147,7 +147,7 @@ Udyog Kendra 1, Ecotech 3,Greater Noida 201306</span>
             <p className="mb-3">
               Subscribe to our newsletter for latest updates on scrap prices and eco-friendly tips.
             </p>
-            <div className="newsletter-form">
+            {/* <div className="newsletter-form">
               <div className="input-group">
                 <input
                   type="email"
@@ -159,7 +159,7 @@ Udyog Kendra 1, Ecotech 3,Greater Noida 201306</span>
                   Subscribe
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="col-lg-4 col-md-6">
             <h5 className="footer-title mb-3">Follow Us</h5>

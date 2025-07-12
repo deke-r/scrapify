@@ -51,7 +51,7 @@ export default function PickupRequestModal({ show, handleClose }) {
       role="dialog"
     >
       <div className="modal-dialog modal-lg modal-dialog-centered " role="document">
-        <div className="modal-content border-0 rounded-4">
+        <div className="modal-content border-0 rounded-4 overflow-scroll">
           <div className="modal-header flex-column align-items-center border-0 pt-4">
             <div className="bg-success rounded-circle d-flex justify-content-center align-items-center mb-3" style={{ width: "50px", height: "50px" }}>
               <Truck size={28} color="white" />

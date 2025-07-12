@@ -1,10 +1,39 @@
 export const metadata = {
-  title: "Scrapify – Certified Demolition & Site Clearance Services in Delhi NCR",
+  title: "Demolition & Site Clearance in Delhi NCR – Scrapify",
   description:
-    "Scrapify provides professional demolition services for factories, warehouses, and office spaces in Delhi, Noida, Gurugram & NCR. We offer safe dismantling, scrap recovery, and complete site clearance with safety compliance and certified scrap disposal.",
+    "Certified demolition services for factories, offices & warehouses in Delhi NCR. Safe dismantling, scrap recovery, and full site clearance.",
   keywords:
     "demolition services Delhi NCR, industrial demolition Noida, factory dismantling Gurugram, certified site clearance Delhi, machine removal Noida, scrap disposal service, office demolition contractor, Scrapify demolition solutions, interior strip-out Delhi, commercial demolition services NCR",
-}
+  alternates: {
+    canonical: "https://scrapify.in/services/demolition-services",
+  },
+  openGraph: {
+    title: "Demolition & Site Clearance in Delhi NCR – Scrapify",
+    description:
+      "Get certified demolition and clearance services in Delhi NCR. Offices, warehouses, factories — safe dismantling and scrap disposal.",
+    url: "https://scrapify.in/services/demolition-services",
+    siteName: "Scrapify",
+    images: [
+      {
+        url: "https://scrapify.in/og-cover.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Scrapify Demolition Services",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Demolition & Site Clearance in Delhi NCR – Scrapify",
+    description:
+      "Scrapify offers safe, certified demolition for industrial and office spaces. Trusted across Delhi, Noida, and Gurugram.",
+    images: ["https://scrapify.in/og-cover.jpg"],
+    creator: "@scrapify",
+  },
+};
+
 
 import ModalButton from "@/components/ModalButton"
 import styles from "../../../styles/demolition.module.css"
@@ -36,34 +65,37 @@ export default function DemolitionServices() {
   return (
     <div className="min-vh-100">
       {/* Hero Section */}
-      <section className={`${styles.heroSection} bg-gradient-success text-white py-5`}>
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className={`${styles.safetyBadge} mb-3`}>
-                <i className="fas fa-hard-hat me-2"></i>
-                Licensed & Insured
-              </div>
-              <h1 className="display-4 fw-bold mb-4">Demolition Services</h1>
-              <p className="lead f_18 mb-4">
-                Safe, efficient, and environmentally conscious demolition solutions for residential, commercial, and
-                industrial structures.
-              </p>
-              <div className="d-flex gap-3">
-           
-                <ModalButton text="Get Demolition Quote" variant="white"/>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <img
-                src="/placeholder.svg?height=400&width=600"
-                alt="Demolition Services"
-                className="img-fluid rounded-3 shadow-lg"
-              />
-            </div>
-          </div>
+     <section className={`${styles.heroSection} bg-gradient-success text-white py-5`}>
+  <div className="container">
+    <div className="row align-items-center">
+
+      <div className="col-lg-6 order-1 order-lg-2 text-center mb-4 mb-lg-0">
+        <img
+          src="/img/car-dump-cartoon-composition-with-crushed-auto-landfill-vector-illustration_1284-81099.avif"
+          alt="Demolition Services"
+          className="img-fluid rounded-3 shadow-lg"
+        />
+      </div>
+
+      <div className="col-lg-6 order-2 order-lg-1 text-center text-lg-start">
+        <div className={`${styles.safetyBadge} mb-3`}>
+          <i className="fas fa-hard-hat me-2"></i>
+          Licensed & Insured
         </div>
-      </section>
+        <h1 className="display-5 fw-bold mb-3">Demolition Services</h1>
+        <p className="lead f_18 mb-4">
+          Safe, efficient, and environmentally conscious demolition solutions for residential, commercial, and
+          industrial structures.
+        </p>
+        <div className="d-flex justify-content-center justify-content-lg-start gap-3">
+          <ModalButton text="Get Demolition Quote" variant="white" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
       {/* Overview Section */}
       <section className="py-5">

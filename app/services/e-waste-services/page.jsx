@@ -1,10 +1,39 @@
 export const metadata = {
-  title: "Scrapify – Certified E-Waste Management & Collection in Delhi NCR",
+  title: "E-Waste Collection & Recycling in Delhi NCR – Scrapify",
   description:
-    "Scrapify offers secure and certified e-waste collection services for businesses across Delhi, Noida, Gurugram & NCR. From computers to office electronics, we ensure safe data destruction and eco-friendly recycling. Book a compliant e-waste pickup with instant support & GST invoicing.",
+    "Certified e-waste pickup for offices and industries in Delhi NCR. Secure data destruction, GST invoicing, and eco-friendly recycling.",
   keywords:
     "e-waste management Delhi, electronic waste pickup Noida, secure data destruction, certified e-waste recycler Gurugram, office electronics recycling, computer disposal Delhi NCR, eco-friendly e-waste solution, IT scrap collection, Scrapify e-waste, industrial e-waste disposal, corporate e-waste service",
-}
+  alternates: {
+    canonical: "https://scrapify.in/services/e-waste-services",
+  },
+  openGraph: {
+    title: "E-Waste Collection & Recycling in Delhi NCR – Scrapify",
+    description:
+      "Scrapify offers certified e-waste pickup for offices, IT, and industrial units. Secure data wipe, GST invoice, and eco disposal.",
+    url: "https://scrapify.in/services/e-waste-services",
+    siteName: "Scrapify",
+    images: [
+      {
+        url: "https://scrapify.in/og-cover.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Scrapify E-Waste Services",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "E-Waste Collection & Recycling in Delhi NCR – Scrapify",
+    description:
+      "Book secure and certified e-waste pickup in Delhi NCR. For offices, IT assets, and industries. Trusted recycling partner.",
+    images: ["https://scrapify.in/og-cover.jpg"],
+    creator: "@scrapify",
+  },
+};
+
 
 import ModalButton from "@/components/ModalButton"
 import styles from "../../../styles/e-waste.module.css"
@@ -36,34 +65,37 @@ export default function EWasteServices() {
   return (
     <div className="min-vh-100">
       {/* Hero Section */}
-      <section className={`${styles.heroSection} bg-gradient-success text-white py-5`}>
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className={`${styles.securityBadge} mb-3`}>
-                <i className="fas fa-shield-alt me-2"></i>
-                Certified Data Destruction
-              </div>
-              <h1 className="display-4 fw-bold mb-4">E-Waste Management Services</h1>
-              <p className="lead f_18 mb-4">
-                Secure and environmentally responsible electronic waste disposal with guaranteed data destruction and
-                EPA compliance.
-              </p>
-              <div className="d-flex gap-3">
-                <ModalButton text='Schedule Pickup' variant="white"/>
-             
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <img
-                src="/placeholder.svg?height=400&width=600"
-                alt="E-Waste Management Services"
-                className="img-fluid rounded-3 shadow-lg"
-              />
-            </div>
-          </div>
+   <section className={`${styles.heroSection} bg-gradient-success text-white py-5`}>
+  <div className="container">
+    <div className="row align-items-center">
+      
+      <div className="col-lg-6 order-1 order-lg-2 text-center mb-4 mb-lg-0">
+        <img
+          src="/img/hand-drawn-e-waste-illustration_23-2151487079 (1).avif"
+          alt="E-Waste Management Services"
+          className="img-fluid rounded-3 shadow-lg"
+        />
+      </div>
+
+      <div className="col-lg-6 order-2 order-lg-1 text-center text-lg-start">
+        <div className={`${styles.securityBadge} mb-3`}>
+          <i className="fas fa-shield-alt me-2"></i>
+          Certified Data Destruction
         </div>
-      </section>
+        <h1 className="display-5 fw-bold mb-3">E-Waste Management Services</h1>
+        <p className="lead f_18 mb-4">
+          Secure and environmentally responsible electronic waste disposal with guaranteed data destruction and
+          EPA compliance.
+        </p>
+        <div className="d-flex justify-content-center justify-content-lg-start gap-3">
+          <ModalButton text="Schedule Pickup" variant="white" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
       {/* Overview Section */}
       <section className="py-5">
