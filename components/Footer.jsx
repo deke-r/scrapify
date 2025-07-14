@@ -29,7 +29,7 @@ export default function Footer() {
               <div className="footer-contact-item d-flex align-items-start">
                 <MapPin size={16} className="text-success me-2 mt-1" />
                 <span>Plot No 281,
-Udyog Kendra 1, Ecotech 3,Greater Noida 201306</span>
+                  Udyog Kendra 1, Ecotech 3,Greater Noida 201306</span>
               </div>
             </div>
           </div>
@@ -85,6 +85,11 @@ Udyog Kendra 1, Ecotech 3,Greater Noida 201306</span>
                   </a>
                 </li>
                 <li>
+                  <a href="/services/recycling-services" className="footer-link">
+                    Recycling Services
+                  </a>
+                </li>
+                <li>
                   <a href="/services/demolition-services" className="footer-link">
                     Demolition Services
                   </a>
@@ -116,7 +121,7 @@ Udyog Kendra 1, Ecotech 3,Greater Noida 201306</span>
                 </li>
                 <li>
                   <a href="#" className="footer-link">
-                   Greater Noida
+                    Greater Noida
                   </a>
                 </li>
                 <li>

@@ -1,7 +1,8 @@
 "use client";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
-import styles from "../styles/Contact.module.css"
+import styles from "../styles/Contact.module.css";
+import axios from "axios";
 
 export default function ContactFormSection() {
   const {
@@ -12,11 +13,28 @@ export default function ContactFormSection() {
   } = useForm();
 
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [errorMsg, setErrorMsg] = useState("");
 
-  const onSubmit = (data) => {
-    console.log("Form Data:", data);
-    setSubmitted(true);
-    reset();
+  const onSubmit = async (data) => {
+    setLoading(true);
+    setErrorMsg("");
+    setSubmitted(false);
+
+    try {
+      const response = await axios.post("/api/contact", data);
+      if (response.data.success) {
+        setSubmitted(true);
+        reset();
+      } else {
+        setErrorMsg("Failed to send message. Please try again.");
+      }
+    } catch (error) {
+      console.error("Form submission error:", error);
+      setErrorMsg("Something went wrong. Please try again later.");
+    }
+
+    setLoading(false);
   };
 
   return (
@@ -31,6 +49,12 @@ export default function ContactFormSection() {
                 {submitted && (
                   <div className="alert alert-success text-center" role="alert">
                     Message sent successfully!
+                  </div>
+                )}
+
+                {errorMsg && (
+                  <div className="alert alert-danger text-center" role="alert">
+                    {errorMsg}
                   </div>
                 )}
 
@@ -126,8 +150,12 @@ export default function ContactFormSection() {
                   </div>
 
                   <div className="text-center">
-                    <button type="submit" className="btn btn-success rounded-4 py-3 f_14 fw-semibold px-4 w-50">
-                      Send Message
+                    <button
+                      type="submit"
+                      className="btn btn-success rounded-4 py-3 f_14 fw-semibold px-4 w-50"
+                      disabled={loading}
+                    >
+                      {loading ? "Sending..." : "Send Message"}
                     </button>
                   </div>
                 </form>

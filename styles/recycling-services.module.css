@@ -1,0 +1,466 @@
+.heroSection {
+  background: linear-gradient(135deg, #228b22 0%, #1e7a1e 100%);
+  position: relative;
+  overflow: hidden;
+  min-height: 70vh;
+}
+
+.heroSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="recycling-pattern" width="60" height="60" patternUnits="userSpaceOnUse"><circle cx="30" cy="30" r="3" fill="rgba(255,255,255,0.1)"/><path d="M15 15 L25 25 M35 15 L45 25 M25 35 L35 45" stroke="rgba(255,255,255,0.1)" stroke-width="1"/><rect x="10" y="40" width="8" height="8" fill="rgba(255,255,255,0.05)"/></pattern></defs><rect width="100" height="100" fill="url(%23recycling-pattern)"/></svg>');
+  opacity: 0.4;
+}
+
+.sustainabilityBadge {
+  background: linear-gradient(45deg, #27ae60, #2ecc71);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  display: inline-block;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.heroImageContainer {
+  position: relative;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.floatingIcon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.icon1 {
+  top: 10%;
+  right: 10%;
+  animation: bounce 3s infinite;
+}
+
+.icon2 {
+  bottom: 20%;
+  right: 20%;
+  animation: bounce 3s infinite 1s;
+}
+
+.icon3 {
+  top: 50%;
+  right: -10%;
+  animation: bounce 3s infinite 2s;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.statCard {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.statCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.statIcon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.statCard:hover .statIcon {
+  transform: scale(1.2) rotate(360deg);
+}
+
+.statNumber {
+  font-size: 2.5rem;
+  position: relative;
+}
+
+.statNumber::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 3px;
+  background: linear-gradient(90deg, #228b22, #1e7a1e);
+  border-radius: 2px;
+}
+
+.impactHighlight {
+  background: linear-gradient(135deg, rgba(34, 139, 34, 0.1) 0%, rgba(30, 122, 30, 0.05) 100%);
+  border-left: 4px solid #228b22;
+}
+
+.certificationCard {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 15px;
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.certificationCard:hover {
+  transform: translateY(-10px);
+}
+
+.certIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+.materialCard {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+  overflow: hidden;
+}
+
+.materialCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.materialIcon {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.3s ease;
+}
+
+.materialCard:hover .materialIcon {
+  transform: scale(1.1) rotate(10deg);
+}
+
+.materialTag {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.materialTag:hover {
+  background-color: #228b22 !important;
+  color: white !important;
+  transform: scale(1.05);
+}
+
+.recyclingRate {
+  margin-top: 1rem;
+}
+
+.progressBar {
+  height: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  transition: width 0.8s ease;
+  position: relative;
+}
+
+.progressFill::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 1rem 1rem;
+  animation: move 1s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1rem 0;
+  }
+}
+
+.processStep {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.processStep:hover {
+  transform: translateY(-5px);
+}
+
+.processCircle {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.processCircle::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(90deg, #228b22, transparent);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.processCircle.step4::before {
+  display: none;
+}
+
+.stepNumber {
+  width: 80px;
+  height: 80px;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.processStep:hover .stepNumber {
+  transform: scale(1.1);
+}
+
+.serviceOption {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.serviceOption:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.serviceIcon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.serviceOption:hover .serviceIcon {
+  transform: scale(1.1);
+}
+
+.impactCard {
+  background: rgba(34, 139, 34, 0.05);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.impactCard:hover {
+  transform: scale(1.05);
+  background: rgba(34, 139, 34, 0.1);
+}
+
+.sustainabilityChart {
+  position: relative;
+}
+
+.sustainabilityChart::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  background: linear-gradient(45deg, rgba(34, 139, 34, 0.1), rgba(30, 122, 30, 0.05));
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.ctaSection {
+  background: linear-gradient(135deg, #228b22 0%, #1e7a1e 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.ctaSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="cta-pattern" width="50" height="50" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="2" fill="rgba(255,255,255,0.1)"/><path d="M10 10 Q25 5 40 10 T70 10" stroke="rgba(255,255,255,0.1)" stroke-width="1" fill="none"/></pattern></defs><rect width="100" height="100" fill="url(%23cta-pattern)"/></svg>');
+  opacity: 0.3;
+}
+
+/* Accordion Styling */
+.accordion-button:not(.collapsed) {
+  background-color: rgba(34, 139, 34, 0.1);
+  color: #228b22;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.2rem rgba(34, 139, 34, 0.25);
+}
+
+.accordion-item {
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heroSection {
+    text-align: center;
+    min-height: 60vh;
+  }
+
+  .floatingIcon {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .processCircle::before {
+    display: none;
+  }
+
+  .materialIcon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .stepNumber {
+    width: 60px;
+    height: 60px;
+    font-size: 1.25rem;
+  }
+
+  .statNumber {
+    font-size: 2rem;
+  }
+
+  .certificationCard {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Animation for cards on scroll */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.materialCard,
+.serviceOption,
+.statCard {
+  animation: slideInUp 0.6s ease-out;
+}
+
+.materialCard:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.materialCard:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.materialCard:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.serviceOption:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.serviceOption:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+/* Hover effects for interactive elements */
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Loading animation for progress bars */
+.progressFill {
+  animation: fillProgress 2s ease-out;
+}
+
+@keyframes fillProgress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: var(--target-width, 85%);
+  }
+}

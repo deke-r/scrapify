@@ -17,9 +17,14 @@ export async function POST(req) {
     },
   })
 
+        const recipients = [
+      'senseprojects@yahoo.com',
+      'senseprojects2019@gmail.com',
+    ];
+
   await transporter.sendMail({
     from: `"SCRAPIFY LEAD" <${process.env.MAIL_USER}>`,
-    to: "bhavishya.sense@gmail.com",
+    to: recipients,
     subject: "New Pickup Lead - Phone",
     html: `
   <div style="padding: 40px 20px; font-family: Arial, sans-serif; color: #fff;">

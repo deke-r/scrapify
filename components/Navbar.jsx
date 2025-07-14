@@ -4,7 +4,8 @@ import {
   Recycle,
   Monitor,
   Building2,
-  Wrench
+  Wrench,
+  Trash 
 } from "lucide-react"
 
 
@@ -52,7 +53,7 @@ export default function Navbar() {
               <ul className="dropdown-menu border-0 py-0">
                 <li>
                   <Link className="dropdown-item fw-semibold f_14 d-flex align-items-center" href="/services/scrap-dealing">
-                    <Recycle size={16} className="me-2 text-success" />
+                    <Trash  size={16} className="me-2 text-success" />
                     Scrap Dealing
                   </Link>
                 </li>
@@ -60,6 +61,12 @@ export default function Navbar() {
                   <Link className="dropdown-item fw-semibold f_14 d-flex align-items-center" href="/services/e-waste-services">
                     <Monitor size={16} className="me-2 text-success" />
                     E Waste Services
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item fw-semibold f_14 d-flex align-items-center" href="/services/recycling-services">
+                    <Recycle size={16} className="me-2 text-success" />
+                    Recycling Services
                   </Link>
                 </li>
                 <li>
