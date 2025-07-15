@@ -181,9 +181,9 @@ export default function Footer() {
               <a href="#" className="social-link" aria-label="LinkedIn">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="social-link" aria-label="YouTube">
+              {/* <a href="#" className="social-link" aria-label="YouTube">
                 <Youtube size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

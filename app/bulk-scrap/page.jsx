@@ -72,7 +72,7 @@ export default function BulkScrap() {
       <div className="col-lg-6 order-1 order-lg-2 text-center">
         <div className={`${styles.heroImage}`}>
           <img
-            src="/img/imgi_6_scrap-metal-flat-composition-with-cityscape-background-view-bulldozer-with-workers-moving-waste-iron-vector-illustration_1284-79302.webp"
+            src="/img/bulk.webp"
             alt="Bulk Scrap Collection"
             className="img-fluid rounded-5 shadow-lg"
           />

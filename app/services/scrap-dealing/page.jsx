@@ -80,9 +80,9 @@ export default function ScrapDealing() {
     <div className="row align-items-center">
       <div className="col-lg-6 order-1 order-lg-2 text-center mb-4 mb-lg-0">
         <img
-          src="/img/car-dump-cartoon-icons-set-with-crushed-autos-isolated-vector-illustration_1284-81098 (2).avif"
+          src="/img/IMG_7246.webp"
           alt="Scrap Dealing Services"
-          className="img-fluid rounded-3 shadow-lg"
+          className="img-fluid rounded-5 shadow-lg"
         />
       </div>
       <div className="col-lg-6 order-2 order-lg-1 text-center text-lg-start">

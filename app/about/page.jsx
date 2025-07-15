@@ -53,7 +53,7 @@ export default function About() {
         <div className={`${styles.heroImage}`}>
           <div className={`${styles.imageContainer} position-relative`}>
             <img
-              src="/img/imgi_133_car-dump-cartoon-concept-with-handyman-operating-auto-crushing-machinery-vector-illustration_1284-81103.webp"
+              src="/img/IMG_7253.webp"
               alt="Scrapify Dashboard"
               className="img-fluid rounded-5 shadow-lg"
             />

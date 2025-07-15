@@ -71,9 +71,9 @@ export default function EWasteServices() {
       
       <div className="col-lg-6 order-1 order-lg-2 text-center mb-4 mb-lg-0">
         <img
-          src="/img/hand-drawn-e-waste-illustration_23-2151487079 (1).avif"
+          src="/img/IMG_7248.webp"
           alt="E-Waste Management Services"
-          className="img-fluid rounded-3 shadow-lg"
+          className="img-fluid rounded-5 shadow-lg"
         />
       </div>
 

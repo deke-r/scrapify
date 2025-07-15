@@ -71,9 +71,9 @@ export default function DemolitionServices() {
 
       <div className="col-lg-6 order-1 order-lg-2 text-center mb-4 mb-lg-0">
         <img
-          src="/img/car-dump-cartoon-composition-with-crushed-auto-landfill-vector-illustration_1284-81099.avif"
+          src="/img/IMG_7251.webp"
           alt="Demolition Services"
-          className="img-fluid rounded-3 shadow-lg"
+          className="img-fluid rounded-5 shadow-lg"
         />
       </div>
 

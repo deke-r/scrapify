@@ -116,11 +116,11 @@ export default function RecyclingServices() {
 
             {/* Image Column - appears first on small screens */}
             <div className="col-lg-6 order-1 order-lg-2 text-center mb-4 mb-lg-0">
-              <div className={`${styles.heroImageContainer}`}>
+              <div className={`${styles.heroImageContainer} `}>
                 <img
-                  src="/img/imgi_44_people-placing-reusable-waste-into-dumpster_74855-7781.webp"
+                  src="/img/IMG_7249.webp"
                   alt="Recycling Services"
-                  className="img-fluid rounded-3 shadow-lg"
+                  className="img-fluid rounded-5 shadow-lg"
                 />
                 <div className={`${styles.floatingIcon} ${styles.icon1}`}>
                   <i className="fas fa-recycle"></i>

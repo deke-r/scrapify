@@ -76,9 +76,9 @@ export default function FacilityDecommissioning() {
 
       <div className="col-lg-6 order-1 order-lg-2 text-center mb-4 mb-lg-0">
         <img
-          src="/img/illustration-open-waste-disposal-site_1150725-591.avif"
+          src="/img/IMG_7252.webp"
           alt="Facility Decommissioning Services"
-          className="img-fluid rounded-3 shadow-lg"
+          className="img-fluid rounded-5 shadow-lg"
         />
       </div>
 
