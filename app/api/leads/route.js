@@ -17,10 +17,11 @@ export async function POST(req) {
     },
   })
 
-        const recipients = [
-      'senseprojects@yahoo.com',
-      'senseprojects2019@gmail.com',
-    ];
+  const recipients = [
+    'senseprojects@yahoo.com',
+    'senseprojects2019@gmail.com',
+    'info@scrapfiy.in'
+  ];
 
   await transporter.sendMail({
     from: `"SCRAPIFY LEAD" <${process.env.MAIL_USER}>`,
