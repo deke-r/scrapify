@@ -40,28 +40,23 @@ export default function Footer() {
               <h5 className="footer-title mb-3">Quick Links</h5>
               <ul className="footer-links list-unstyled">
                 <li>
-                  <a href="#" className="footer-link">
+                  <a href="/" className="footer-link">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="footer-link">
+                  <a href="/about" className="footer-link">
                     About Us
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="footer-link">
-                    Services
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" className="footer-link">
+                  <a href="/contact" className="footer-link">
                     Contact
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="footer-link">
+                  <a href="/blog" className="footer-link">
                     Blog
                   </a>
                 </li>
@@ -169,13 +164,13 @@ export default function Footer() {
           <div className="col-lg-4 col-md-6">
             <h5 className="footer-title mb-3">Follow Us</h5>
             <div className="social-links d-flex gap-3">
-              <a href="#" className="social-link" aria-label="Facebook">
+              <a href="https://www.facebook.com/Scrapify.in" target="_blank" className="social-link" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="social-link" aria-label="Twitter">
+              <a href="https://x.com/Scrapify_in" target="_blank" className="social-link" aria-label="Twitter">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="social-link" aria-label="Instagram">
+              <a href="https://www.instagram.com/scrapify_india/" target="_blank" className="social-link" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
               <a href="#" className="social-link" aria-label="LinkedIn">
