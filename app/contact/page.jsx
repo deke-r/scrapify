@@ -95,7 +95,7 @@ export default function Contact() {
                 </div>
                 <h4 className="fw-bold mb-2">Call Us</h4>
                 <p className="text-muted f_15">
-                  +91-9319412012
+                  +91-9599196875
                   <br />
                   Mon–Fri 9AM–6PM
                 </p>

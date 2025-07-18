@@ -91,7 +91,7 @@ export default function FloatingForm() {
                   <i>
                     Facing Problems? Call us at
                     <span className="text-success ms-1">
-                      +91-1234567890
+                      +91-9599196875
                     </span>
                   </i>
                 </p>
