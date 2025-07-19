@@ -42,11 +42,13 @@ import HowItWorks from "@/components/how-it-works"
 import PricingCards from "@/components/pricing-cards"
 import CallToAction from "@/components/call-to-action"
 import Testimonials from "@/components/Testimonials";
+import ServicesOverview from "@/components/ServicesOverview";
 export default function Page() {
   return (
     <>
       <Banner />
       <FloatingForm />
+      <ServicesOverview/>
       <WhyRecycleBaba />
       <HowItWorks />
       <Testimonials/>

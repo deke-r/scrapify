@@ -6,6 +6,8 @@
     height: 80vh !important;
 }
 
+
+
 @media (max-width: 768px) {
   .bannerBg {
     height: 30vh !important;

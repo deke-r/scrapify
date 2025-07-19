@@ -1,0 +1,246 @@
+
+
+
+
+
+.sectionSubtitle {
+  font-size: 1.2rem;
+  color: #6c757d;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.serviceCardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+.serviceCard {
+  background: white;
+ 
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.serviceCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.serviceCard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(40, 167, 69, 0.02) 0%, rgba(32, 201, 151, 0.02) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.serviceCard:hover::before {
+  opacity: 1;
+}
+
+.cardHeader {
+  padding: 2rem 2rem 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.serviceIcon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0 auto 1.5rem;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.serviceCard:hover .serviceIcon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.serviceTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.serviceCard:hover .serviceTitle {
+  color: #228b22;
+}
+
+.cardBody {
+  padding: 0 2rem 1rem;
+  flex-grow: 1;
+}
+
+.serviceDescription {
+  color: #6c757d;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.featuresList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  color: #495057;
+}
+
+.checkIcon {
+  color: #228b22;
+  font-weight: bold;
+  margin-right: 0.75rem;
+  font-size: 1rem;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgba(40, 167, 69, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cardFooter {
+  padding: 1rem 2rem 2rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+.learnMore {
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.serviceCard:hover .learnMore {
+  transform: translateX(5px);
+}
+
+.viewAllBtn {
+  padding: 1rem 3rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
+}
+
+.viewAllBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(40, 167, 69, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .servicesSection {
+    padding: 60px 0;
+  }
+
+  .sectionTitle {
+    font-size: 2.5rem;
+  }
+
+  .sectionSubtitle {
+    font-size: 1.1rem;
+  }
+
+  .serviceCard {
+    margin-bottom: 2rem;
+  }
+
+  .cardHeader {
+    padding: 1.5rem 1.5rem 1rem;
+  }
+
+  .cardBody {
+    padding: 0 1.5rem 1rem;
+  }
+
+  .cardFooter {
+    padding: 1rem 1.5rem 1.5rem;
+  }
+
+  .serviceIcon {
+    width: 70px;
+    height: 70px;
+    font-size: 1.8rem;
+  }
+
+  .serviceTitle {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .viewAllBtn {
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+  }
+}
+
+/* Animation for cards appearing */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.serviceCard {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.serviceCard:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.serviceCard:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.serviceCard:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.serviceCard:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.serviceCard:nth-child(5) {
+  animation-delay: 0.5s;
+}
