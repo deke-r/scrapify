@@ -77,7 +77,7 @@ export default function Contact() {
                 </div>
                 <h4 className="fw-bold mb-2">Email Us</h4>
                 <p className="text-muted f_15">
-                  info@scrapify.com
+                  info@scrapify.in
                   <br />
 
                 </p>

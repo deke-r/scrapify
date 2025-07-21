@@ -24,7 +24,7 @@ export default function Footer() {
               </div>
               <div className="footer-contact-item d-flex align-items-center mb-2">
                 <Mail size={16} className="text-success me-2" />
-                <span>info@scrapify.com</span>
+                <span>info@scrapify.in</span>
               </div>
               <div className="footer-contact-item d-flex align-items-start">
                 <MapPin size={16} className="text-success me-2 mt-1" />
