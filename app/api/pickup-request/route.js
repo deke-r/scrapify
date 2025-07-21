@@ -1,21 +1,21 @@
 import nodemailer from "nodemailer";
 
 export async function POST(request) {
-  const body = await request.json();
-
-  const {
-    name,
-    phone,
-    address,
-    state,
-    pincode,
-    email,
-    scrapTypes = [],
-    pickupDate,
-    remarks,
-  } = body;
-
   try {
+    const body = await request.json();
+
+    const {
+      name,
+      phone,
+      address,
+      state,
+      pincode,
+      email,
+      scrapTypes = [],
+      pickupDate,
+      remarks,
+    } = body;
+
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
       port: 587,
@@ -26,10 +26,10 @@ export async function POST(request) {
       },
     });
 
-    const recipients = ['bhavishya.sense@gmail.com',
-      'senseprojects@yahoo.com',
-      'senseprojects2019@gmail.com',
-      'info@scrapfiy.in'
+    const recipients = [
+      "senseprojects@yahoo.com",
+      "senseprojects2019@gmail.com",
+      "info@scrapfiy.in",
     ];
 
     await transporter.sendMail({
@@ -83,7 +83,6 @@ export async function POST(request) {
     </div>
   </div>
 `,
-
     });
 
     return Response.json({ success: true });
