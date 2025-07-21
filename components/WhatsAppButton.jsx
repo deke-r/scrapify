@@ -4,7 +4,7 @@ import styles from "../styles/Whatsapp.module.css";
 
 
 const WhatsAppButton = () => {
-  const phoneNumber = "919999999999"; 
+  const phoneNumber = "919599196875"; 
   const message = encodeURIComponent("Hi! I'm interested in your services via Scrapify.");
   const link = `https://wa.me/${phoneNumber}?text=${message}`;
 
