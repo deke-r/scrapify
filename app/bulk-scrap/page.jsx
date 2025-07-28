@@ -40,13 +40,16 @@ import Header from "@/components/Header"
 import styles from "../../styles/Bulk-scrap.module.css"
 import WhatWeDo from "@/components/WhatWeDo"
 import {
-  ShoppingCart,
-  Rocket,
-  BookOpen,
-  Megaphone,
-  Banknote,
-  Newspaper,
-} from "lucide-react"
+  Factory,
+  MonitorSmartphone,
+  Stethoscope,
+  Hotel,
+  Building2,
+  Home,
+  GraduationCap,
+  Truck
+} from "lucide-react";
+
 import ModalButton from "@/components/ModalButton"
 
 
@@ -167,71 +170,107 @@ export default function BulkScrap() {
 
 
 
-      <section className="py-5 bg-light">
-        <div className="container">
-          <div className="row">
-            <div className="col-12 mb-5">
-              <h2 className="fw-bold text-center">Our Prospective Clients</h2>
-            </div>
-          </div>
+     <section className="py-5 bg-light">
+  <div className="container">
+    <div className="row">
+      <div className="col-12 mb-5">
+        <h2 className="fw-bold text-center">Our Prospective Clients</h2>
+        <p className="text-center text-muted">We cater to a wide range of sectors that require responsible scrap management and recycling solutions.</p>
+      </div>
+    </div>
 
-          <div className="row">
-            <div className="col-lg-4 col-md-6 mb-4">
-              <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
-                <div className="card-body p-4">
-                  <ShoppingCart size={48} className="text-success mb-3" />
-                  <h4 className="fw-bold">E-commerce</h4>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-              <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
-                <div className="card-body p-4">
-                  <Rocket size={48} className="text-success mb-3" />
-                  <h4 className="fw-bold">Tech Startups</h4>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-              <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
-                <div className="card-body p-4">
-                  <BookOpen size={48} className="text-success mb-3" />
-                  <h4 className="fw-bold">Research Firms</h4>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-              <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
-                <div className="card-body p-4">
-                  <Megaphone size={48} className="text-success mb-3" />
-                  <h4 className="fw-bold">Marketing Agencies</h4>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-              <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
-                <div className="card-body p-4">
-                  <Banknote size={48} className="text-success mb-3" />
-                  <h4 className="fw-bold">Financial Services</h4>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 mb-4">
-              <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
-                <div className="card-body p-4">
-                  <Newspaper size={48} className="text-success mb-3" />
-                  <h4 className="fw-bold">Media Companies</h4>
-                </div>
-              </div>
-            </div>
+    <div className="row">
+      {/* Industries */}
+      <div className="col-lg-3 col-md-6 mb-4">
+        <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
+          <div className="card-body p-4">
+            <Factory size={48} className="text-success mb-3" />
+            <h5 className="fw-bold">Industrial Units</h5>
+            <p className="text-muted small">Scrap metal, machinery, and bulk waste management for factories and plants.</p>
           </div>
         </div>
-      </section>
+      </div>
+
+      {/* IT Companies */}
+      <div className="col-lg-3 col-md-6 mb-4">
+        <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
+          <div className="card-body p-4">
+            <MonitorSmartphone size={48} className="text-success mb-3" />
+            <h5 className="fw-bold">IT & Tech Parks</h5>
+            <p className="text-muted small">Secure e-waste disposal for servers, computers, and electronic peripherals.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Hospitals */}
+      <div className="col-lg-3 col-md-6 mb-4">
+        <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
+          <div className="card-body p-4">
+            <Stethoscope size={48} className="text-success mb-3" />
+            <h5 className="fw-bold">Hospitals</h5>
+            <p className="text-muted small">Disposal of medical equipment, beds, and metal scrap as per norms.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Hotels & Hospitality */}
+      <div className="col-lg-3 col-md-6 mb-4">
+        <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
+          <div className="card-body p-4">
+            <Hotel size={48} className="text-success mb-3" />
+            <h5 className="fw-bold">Hotels & Resorts</h5>
+            <p className="text-muted small">Scrap clearance from furniture, fixtures, and kitchen equipment.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Commercial Complexes */}
+      <div className="col-lg-3 col-md-6 mb-4">
+        <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
+          <div className="card-body p-4">
+            <Building2 size={48} className="text-success mb-3" />
+            <h5 className="fw-bold">Commercial Spaces</h5>
+            <p className="text-muted small">Offices, malls, and retail outlets requiring periodic scrap pickup.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Residential Societies */}
+      <div className="col-lg-3 col-md-6 mb-4">
+        <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
+          <div className="card-body p-4">
+            <Home size={48} className="text-success mb-3" />
+            <h5 className="fw-bold">Residential Societies</h5>
+            <p className="text-muted small">Community-level waste management and recyclables collection.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Educational Institutions */}
+      <div className="col-lg-3 col-md-6 mb-4">
+        <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
+          <div className="card-body p-4">
+            <GraduationCap size={48} className="text-success mb-3" />
+            <h5 className="fw-bold">Institutions</h5>
+            <p className="text-muted small">Schools, colleges, and training centers discarding old infrastructure.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Warehouses & Logistics */}
+      <div className="col-lg-3 col-md-6 mb-4">
+        <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
+          <div className="card-body p-4">
+            <Truck size={48} className="text-success mb-3" />
+            <h5 className="fw-bold">Warehouses & Logistics</h5>
+            <p className="text-muted small">Pallets, storage racks, and outdated logistics scrap handled efficiently.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 
