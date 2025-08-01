@@ -39,7 +39,7 @@ export default function ServicesOverview() {
     title: "Facility Decommissioning",
     description:
       "Complete facility shutdown and decommissioning services for industrial and commercial sites.",
-    icon: "��",
+    icon: "🏭",
     features: ["Facility Assessment", "Asset Inventory", "Decommissioning", "Site Restoration"],
     link: "/services/facility-decommissioning",
     color: "#228b22",
