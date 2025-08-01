@@ -9,13 +9,13 @@ import styles from "../styles/About.module.css"
 const stats = [
   {
     icon: FileText,
-    value: 9999,
+    value: 500,
     suffix: "+",
     label: "Records Extracted"
   },
   {
     icon: Users,
-    value: 1140,
+    value: 50,
     suffix: "+",
     label: "Active Users"
   },
@@ -27,7 +27,7 @@ const stats = [
   },
   {
     icon: Headphones,
-    value: 7,
+    value: 24,
     suffix: "/7",
     label: "Support Available"
   }

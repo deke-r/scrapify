@@ -38,9 +38,9 @@ export default function FloatingForm() {
             {/* Left Section */}
             <div className="col-md-8 px-md-3 mb-3 mb-md-0">
               <h1 className="fw-bold f_50">
-                Bulk Scrap & E-Waste Pickup for <br />
-                Offices, Societies & Industries
-              </h1>
+  Bulk Scrap & E-Waste Pickup for <br />
+  Businesses, Institutions & Communities
+</h1>
               <p className="mb-3 text-justify fw-semibold text-muted">
                 Scrapify makes bulk scrap and electronic waste collection effortless for businesses, RWAs, factories, and institutions across Delhi NCR—including Noida, Gurugram, Ghaziabad & Faridabad. Get fast pickups, fair scrap rates, and certified green disposal.
               </p>

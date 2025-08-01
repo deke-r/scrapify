@@ -10,7 +10,7 @@ export default function ServicesOverview() {
     description:
       "Professional scrap metal collection and processing services with competitive pricing and reliable pickup.",
     icon: "♻️",
-    features: ["Metal Collection", "Competitive Pricing", "Free Pickup", "Instant Quotes"],
+    features: ["Contact Us", "Get Quote", "Schedule Pickup", "Receive Payment"],
     link: "/services/scrap-dealing",
     color: "#228b22",
   },
@@ -20,7 +20,7 @@ export default function ServicesOverview() {
     description:
       "Secure and environmentally responsible electronic waste disposal and data destruction services.",
     icon: "💻",
-    features: ["Data Destruction", "Certified Disposal", "Pickup Service", "Compliance Reports"],
+    features: ["Assessment", "Data Destruction", "Secure Transport", "Certified Disposal"],
     link: "/services/e-waste-services",
     color: "#228b22",
   },
@@ -30,7 +30,7 @@ export default function ServicesOverview() {
     description:
       "Complete demolition solutions for residential and commercial properties with safety compliance.",
     icon: "🏗️",
-    features: ["Site Preparation", "Debris Removal", "Safety Compliance", "Licensed Operators"],
+    features: ["Site Survey", "Permits & Planning", "Demolition Work", "Cleanup & Disposal"],
     link: "/services/demolition-services",
     color: "#228b22",
   },
@@ -39,8 +39,8 @@ export default function ServicesOverview() {
     title: "Facility Decommissioning",
     description:
       "Complete facility shutdown and decommissioning services for industrial and commercial sites.",
-    icon: "🏭",
-    features: ["Asset Recovery", "Site Cleanup", "Environmental Compliance", "Project Management"],
+    icon: "��",
+    features: ["Facility Assessment", "Asset Inventory", "Decommissioning", "Site Restoration"],
     link: "/services/facility-decommissioning",
     color: "#228b22",
   },
@@ -50,7 +50,7 @@ export default function ServicesOverview() {
     description:
       "Comprehensive recycling solutions for various materials with environmental sustainability focus.",
     icon: "🌱",
-    features: ["Material Sorting", "Processing", "Sustainability Reports", "Pickup Scheduling"],
+    features: ["Material Collection", "Sorting & Processing", "Recycling", "Sustainability Report"],
     link: "/services/recycling-services",
     color: "#228b22",
   },

@@ -7,61 +7,61 @@ export default function Testimonials() {
   {
     id: 1,
     name: "Anjali Mehra",
-    position: "Business Analyst",
-    company: "Infoserve Solutions",
+    position: "Operations Director",
+    company: "Metro Manufacturing Co.",
     avatar: "/gif/user.gif",
     rating: 5,
-    text: "Scrapify made it easy to manage our scrap disposal process. Their scrap dealing service is transparent, quick, and fairly priced.",
+    text: "We were skeptical about trying a new startup for scrap disposal, but Scrapify exceeded our expectations. Their team is responsive, pricing is transparent, and they handle everything professionally. Highly recommend for businesses looking for reliable scrap management.",
     logo: "",
   },
   {
     id: 2,
     name: "Rohan Gupta",
-    position: "Software Engineer",
-    company: "CodeMatrix Technologies",
+    position: "IT Manager",
+    company: "Digital Solutions Ltd.",
     avatar: "/placeholder.svg?height=80&width=80",
-    rating: 5,
-    text: "We used Scrapify for e-waste management, and the process was seamless. They handle everything responsibly with proper documentation.",
+    rating: 4,
+    text: "Scrapify helped us dispose of our old IT equipment responsibly. As a startup themselves, they understand the challenges businesses face. The process was smooth, though they're still building their service portfolio. Great potential and customer service.",
     logo: "/placeholder.svg?height=40&width=120",
   },
   {
     id: 3,
     name: "Sneha Patel",
-    position: "Digital Marketing Head",
-    company: "ClickEdge Pvt. Ltd.",
+    position: "Facility Manager",
+    company: "Urban Office Spaces",
     avatar: "/placeholder.svg?height=80&width=80",
     rating: 5,
-    text: "Scrapify helped us clear out an old office floor. Their demolition and removal team worked efficiently and safely.",
+    text: "We've been using Scrapify for our office cleanouts. Their demolition and removal service is impressive for a new company. The team is professional, safety-conscious, and they're constantly improving their processes. A promising startup to watch.",
     logo: "/placeholder.svg?height=40&width=120",
   },
   {
     id: 4,
     name: "Amitabh Verma",
-    position: "Head of Research",
-    company: "InsightBridge Analytics",
+    position: "Sustainability Officer",
+    company: "GreenCorp Industries",
     avatar: "/placeholder.svg?height=80&width=80",
     rating: 4,
-    text: "We opted for Scrapify’s facility decommissioning service. It was handled with professionalism and adherence to all regulations.",
+    text: "Scrapify's facility decommissioning service shows real commitment to environmental responsibility. They're still growing, but their attention to compliance and documentation is commendable. Looking forward to seeing how they expand their services.",
     logo: "/placeholder.svg?height=40&width=120",
   },
   {
     id: 5,
     name: "Priya Iyer",
-    position: "Product Lead",
-    company: "InnoVerse Labs",
+    position: "Procurement Manager",
+    company: "TechFlow Systems",
     avatar: "/placeholder.svg?height=80&width=80",
     rating: 5,
-    text: "Scrapify is now our go-to partner for scrap and e-waste disposal. Their pickup process is smooth and payments are instant.",
+    text: "We've been working with Scrapify since their early days. Their pickup process is efficient, payments are prompt, and their customer support is excellent. It's refreshing to work with a startup that truly understands customer needs and delivers consistently.",
     logo: "/placeholder.svg?height=40&width=120",
   },
   {
     id: 6,
     name: "Karan Malhotra",
-    position: "Chief Technology Officer",
-    company: "DataNova Systems",
+    position: "Director of Operations",
+    company: "Innovate Manufacturing",
     avatar: "/placeholder.svg?height=80&width=80",
-    rating: 5,
-    text: "From demolition to e-waste handling, Scrapify offers everything under one roof. Their services are scalable and reliable.",
+    rating: 4,
+    text: "Scrapify offers comprehensive scrap and e-waste solutions. While they're still building their infrastructure, their service quality is solid. Their team is dedicated and they're clearly focused on building long-term relationships. A reliable partner for our waste management needs.",
     logo: "/placeholder.svg?height=40&width=120",
   },
 ];
@@ -129,25 +129,25 @@ export default function Testimonials() {
                 <div className={`${styles.statsSection} row mt-5 py-4`}>
                     <div className="col-md-3 text-center mb-3">
                         <div className={styles.statItem}>
-                            <h3 className="fw-bold text-success mb-1">9,999+</h3>
+                            <h3 className="fw-bold text-success mb-1">500+</h3>
                             <p className="f_14 text-muted mb-0">Records Extracted</p>
                         </div>
                     </div>
                     <div className="col-md-3 text-center mb-3">
                         <div className={styles.statItem}>
-                            <h3 className="fw-bold text-success mb-1">1,140+</h3>
+                            <h3 className="fw-bold text-success mb-1">50+</h3>
                             <p className="f_14 text-muted mb-0">Active Users</p>
                         </div>
                     </div>
                     <div className="col-md-3 text-center mb-3">
                         <div className={styles.statItem}>
-                            <h3 className="fw-bold text-success mb-1">100%</h3>
+                            <h3 className="fw-bold text-success mb-1">99.5%</h3>
                             <p className="f_14 text-muted mb-0">System Uptime</p>
                         </div>
                     </div>
                     <div className="col-md-3 text-center mb-3">
                         <div className={styles.statItem}>
-                            <h3 className="fw-bold text-success mb-1">7/7</h3>
+                            <h3 className="fw-bold text-success mb-1">24/7</h3>
                             <p className="f_14 text-muted mb-0">Support Available</p>
                         </div>
                     </div>
@@ -155,22 +155,22 @@ export default function Testimonials() {
 
 
 
-                <div className="row mt-5">
-                    <div className="col-lg-8 mx-auto text-center">
-                        <div className={`${styles.ctaSection} bg-gradient-success text-white rounded-3 p-5`}>
-                            <h3 className="fw-bold mb-3">Ready to Join Our Success Stories?</h3>
-                            <p className="f_16 mb-4">
-                                Start your free trial today and see why thousands of businesses choose Scrapify
-                            </p>
-                            <div className="d-flex gap-3 justify-content-center">
-                                <Link href="/contact" className="btn f_14 fw-semibold rounded-4 btn-outline-light btn-lg">
-                                    Contact Sales
-                                </Link>
+            <div className="row mt-5">
+    <div className="col-lg-8 mx-auto text-center">
+        <div className={`${styles.ctaSection} bg-gradient-success text-white rounded-3 p-5`}>
+            <h3 className="fw-bold mb-3">Need Reliable Scrap Pickup Services?</h3>
+            <p className="f_16 mb-4">
+                Partner with Scrapify for hassle-free scrap collection and responsible e-waste recycling.
+            </p>
+            <div className="d-flex gap-3 justify-content-center">
+                <Link href="/contact" className="btn f_14 fw-semibold rounded-4 btn-outline-light btn-lg">
+                    Book a Pickup
+                </Link>
+            </div>
+        </div>
+    </div>
+</div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     )
