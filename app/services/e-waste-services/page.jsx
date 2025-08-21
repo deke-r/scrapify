@@ -3,7 +3,7 @@ export const metadata = {
   description:
     "Certified e-waste pickup for offices and industries in Delhi NCR. Secure data destruction, GST invoicing, and eco-friendly recycling.",
   keywords:
-    "e-waste management Delhi, electronic waste pickup Noida, secure data destruction, certified e-waste recycler Gurugram, office electronics recycling, computer disposal Delhi NCR, eco-friendly e-waste solution, IT scrap collection, Scrapify e-waste, industrial e-waste disposal, corporate e-waste service",
+    "e-waste management Delhi, electronic waste pickup Noida, secure data destruction, certified e-waste recycler Gurugram, office electronics recycling, computer disposal Delhi NCR, eco-friendly e-waste solution, IT scrap collection, Scrapify e-waste, industrial e-waste disposal, corporate e-waste service,e-waste management companies in Noida, sell e-waste Delhi, e-waste buyers in Delhi, free e-waste pickup Delhi, corporate e-waste pickup Delhi NCR, school e-waste disposal Delhi NCR, secure e-waste data destruction Delhi NCR, green e-waste disposal Delhi NCR, e-waste recycling company",
   alternates: {
     canonical: "https://scrapify.in/services/e-waste-services",
   },

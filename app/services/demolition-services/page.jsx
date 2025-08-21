@@ -3,7 +3,7 @@ export const metadata = {
   description:
     "Certified demolition services for factories, offices & warehouses in Delhi NCR. Safe dismantling, scrap recovery, and full site clearance.",
   keywords:
-    "demolition services Delhi NCR, industrial demolition Noida, factory dismantling Gurugram, certified site clearance Delhi, machine removal Noida, scrap disposal service, office demolition contractor, Scrapify demolition solutions, interior strip-out Delhi, commercial demolition services NCR",
+    "demolition services Delhi NCR, industrial demolition Noida, factory dismantling Gurugram, certified site clearance Delhi, machine removal Noida, scrap disposal service, office demolition contractor, Scrapify demolition solutions, interior strip-out Delhi, commercial demolition services NCR,top building demolition contractors in Delhi, building demolition contractors in Delhi, best demolition services Delhi NCR, dismantling services in Gurugram",
   alternates: {
     canonical: "https://scrapify.in/services/demolition-services",
   },

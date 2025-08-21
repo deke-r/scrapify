@@ -2,8 +2,8 @@ export const metadata = {
   title: "Scrap Dealing Services in Delhi NCR – Scrapify",
   description:
     "End-to-end scrap pickup and disposal for businesses in Delhi NCR. Metal, plastic, e-waste & more. Instant payment, GST invoice, certified recycling.",
-  keywords:
-    "scrap dealing Delhi NCR, scrap management services, scrap dealers Noida, bulk scrap pickup Gurugram, commercial scrap buyers Ghaziabad, metal scrap Delhi, office scrap disposal, industrial scrap solutions, GST scrap pickup, certified scrap collection services, Scrapify scrap services",
+keywords: 
+  "scrap dealing Delhi NCR, scrap management services, scrap dealers Noida, bulk scrap pickup Gurugram, commercial scrap buyers Ghaziabad, metal scrap Delhi, office scrap disposal, industrial scrap solutions, GST scrap pickup, certified scrap collection services, Scrapify scrap services, kabadiwala in Delhi NCR, scrap dealers in Delhi, scrap management company, online scrap wala, iron scrap dealers in Delhi, sell scrap online Gurgaon, online kabadiwala Gurgaon, car scrap dealers in Delhi, best online kabadiwala in Delhi, scrap pickup at your doorstep, best kabadiwala in Gurgaon, raddiwala Gurgaon, best scrap dealers in Delhi NCR, scrap buyers in Delhi NCR, scrap collection Delhi NCR, scrap pickup Delhi NCR, copper scrap dealers in Delhi, plastic scrap dealers in Delhi, pvc scrap dealers in Delhi",
   alternates: {
     canonical: "https://scrapify.in/services/scrap-dealing",
   },

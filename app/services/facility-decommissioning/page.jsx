@@ -3,7 +3,7 @@ export const metadata = {
   description:
     "Certified decommissioning and asset clearance in Delhi NCR. Machinery removal, IT asset disposal, GST billing, and safe site closure.",
   keywords:
-    "facility decommissioning Delhi, machine dismantling Noida, office clearance Gurugram, industrial relocation service NCR, equipment removal Delhi NCR, IT asset disposal, scrap clearance company, GST scrap invoicing, Scrapify decommissioning, certified asset removal Delhi",
+    "industrial facility decommissioning, commercial facility decommissioning, plant decommissioning services, building decommissioning contractors, decommissioning and dismantling services",
   alternates: {
     canonical: "https://scrapify.in/services/facility-decommissioning",
   },

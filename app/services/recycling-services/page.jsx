@@ -3,7 +3,7 @@ export const metadata = {
   description:
     "Efficient scrap recycling services for paper, metal, plastic, and more across Delhi NCR. Eco-friendly disposal with GST invoicing for homes, offices & industries.",
   keywords:
-    "scrap recycling Delhi NCR, metal recycling Noida, paper scrap collection, plastic disposal Gurugram, eco scrap service, Scrapify recycling, industrial waste recycling, office scrap collection, certified scrap recycler, household scrap recycling, sustainable scrap disposal",
+    "scrap recycling Delhi NCR, metal recycling Noida, paper scrap collection, plastic disposal Gurugram, eco scrap service, Scrapify recycling, industrial waste recycling, office scrap collection, certified scrap recycler, household scrap recycling, sustainable scrap disposal,Plastic recycling services delhi",
   alternates: {
     canonical: "https://scrapify.in/services/recycling-services",
   },
