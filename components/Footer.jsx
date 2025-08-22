@@ -105,7 +105,7 @@ export default function Footer() {
               <ul className="footer-links list-unstyled">
                 <li>
                   <a href="#" className="footer-link">
-                    Delhi NCR
+                   New Delhi
                   </a>
                 </li>
                 <li>
