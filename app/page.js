@@ -3,7 +3,7 @@ export const metadata = {
   description:
     "Book certified scrap and e-waste pickup for homes, societies, and industries in Delhi NCR. Instant payment, GST billing, and eco-friendly disposal.",
   keywords:
-    "bulk scrap pickup Delhi, online kabadiwala Noida, scrap dealer Gurugram, e-waste collection Ghaziabad, scrap buyers Faridabad, industrial scrap Delhi NCR, kabadiwala for companies, commercial scrap buyers, scrap pickup NCR, scrapify booking, instant scrap payment, online scrap collection, recycling service India, online kabadiwala",
+    "bulk scrap pickup Delhi, online kabadiwala Noida, scrap dealer Gurugram, e-waste collection Ghaziabad, scrap buyers Faridabad, industrial scrap Delhi NCR, kabadiwala for companies, commercial scrap buyers, scrap pickup NCR, scrapify booking, instant scrap payment, online scrap collection, recycling service India, online kabadiwala,Best Online Kabadiwala In Delhi, Scrap dealers in Delhi",
   alternates: {
     canonical: "https://scrapify.in/",
   },
