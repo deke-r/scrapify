@@ -32,7 +32,7 @@ export default function WhatWeDo() {
             </div>
             <h4 className="fw-bold mb-3">Scrap Assessment & Requirement Audit</h4>
             <p className="f_15 text-muted">
-              We assess your scrap type, quantity, and pickup location—whether it’s e-waste, metal, cardboard, or mixed waste. On-site surveys available for large projects.
+              We assess your scrap type, quantity, and pickup location—whether it's e-waste, metal, cardboard, or mixed recyclables. For large or complex projects, we offer on-site surveys and custom audit planning.
             </p>
           </div>
         </div>
@@ -46,7 +46,7 @@ export default function WhatWeDo() {
             </div>
             <h4 className="fw-bold mb-3">Pickup Planning & Scheduling</h4>
             <p className="f_15 text-muted">
-              We offer fast, flexible pickup slots for offices, factories, societies, and commercial spaces—daily, weekly, or on-demand.
+             We provide fast and flexible pickup slots tailored to your needs—daily, weekly, or on-demand. Our service covers offices, factories, retail spaces, societies, and more across Delhi NCR.
             </p>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function WhatWeDo() {
             </div>
             <h4 className="fw-bold mb-3">On-Ground Collection & Loading</h4>
             <p className="f_15 text-muted">
-              Our trained team arrives with weighing equipment and transport vehicles. Scrap is collected safely, efficiently, and with proper handling.
+             Our trained, background-verified team arrives with digital weighing equipment and proper transport vehicles. Scrap is collected with safe handling, efficient loading, and minimal disruption.
             </p>
           </div>
         </div>
@@ -77,7 +77,7 @@ export default function WhatWeDo() {
             </div>
             <h4 className="fw-bold mb-3">Instant Digital Payment & Invoicing</h4>
             <p className="f_15 text-muted">
-              Once scrap is weighed and verified, we initiate UPI or bank payment on the spot. Clients also receive GST invoices and eco-disposal certificates.
+             Once materials are verified and weighed, we process instant UPI or bank payments on-site. Clients receive GST-compliant invoices along with eco-disposal certificates for regulatory use.
             </p>
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function WhatWeDo() {
             </div>
             <h4 className="fw-bold mb-3">Eco-Friendly Processing & Recycling</h4>
             <p className="f_15 text-muted">
-              All collected materials are sent to authorized recyclers for safe and legal processing, including dismantling and disposal per pollution board norms.
+              All collected scrap is sent to authorized recyclers for safe dismantling, recycling, or disposal as per pollution control board norms and environmental standards.
             </p>
           </div>
         </div>
@@ -105,7 +105,7 @@ export default function WhatWeDo() {
             </div>
             <h4 className="fw-bold mb-3">Reporting & Compliance Support</h4>
             <p className="f_15 text-muted">
-              For corporate and industrial clients, we offer detailed pickup reports, carbon offset impact summaries, and CSR partnership options.
+           For corporate and industrial clients, we offer detailed pickup summaries, disposal documentation, carbon offset data, and optional CSR collaboration for sustainability reporting.
             </p>
           </div>
         </div>
@@ -122,7 +122,7 @@ export default function WhatWeDo() {
             </div>
             <h4 className="fw-bold mb-3">Insightful Reporting</h4>
             <p className="f_15 text-muted">
-              Receive structured reports summarizing data categories, quantity, and key metrics with transparent tracking.
+            Receive structured reports with key metrics, material categories, and disposal summaries. Full transparency and tracking for audits, sustainability reports, and internal records.
             </p>
           </div>
         </div>

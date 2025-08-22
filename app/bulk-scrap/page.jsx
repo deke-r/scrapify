@@ -87,7 +87,8 @@ export default function BulkScrap() {
           Bulk Scrap Collection Services for Businesses & Societies
         </h1>
         <h3 className="fw-semibold mb-4">
-          Welcome to Scrapify Online Web Scraping Bulk Collection Service!
+         Welcome to Scrapify — your trusted online scrap collection partner.
+We offer hassle-free, doorstep bulk pickup for businesses, residential societies, offices, and institutions. From metal and paper to e-waste and furniture, we ensure fair pricing, digital weighing, and instant payments — all with transparent processes and environmentally responsible disposal.
         </h3>
         <div className="d-flex justify-content-center justify-content-lg-start gap-3">
           <ModalButton text="Get a quote" variant="white" />
@@ -105,7 +106,7 @@ export default function BulkScrap() {
           <div className="row">
             <div className="col-lg-12">
               <p className="lead f_16 text-justify mb-4">
-                Scrapify offers fast and reliable bulk scrap collection for offices, housing societies, retail stores, factories, and corporate facilities across Delhi NCR. Whether it’s metal scrap, plastic waste, cartons, or electronic junk — we ensure on-time pickup, certified disposal, and instant digital payment.
+               Fast & Reliable Bulk Scrap Collection Across Delhi NCR. Scrapify provides efficient bulk scrap pickup for offices, housing societies, retail stores, factories, and corporate facilities. Whether it’s metal scrap, plastic waste, cardboard cartons, or electronic junk, we ensure: On-time pickups, Certified disposal, Instant digital payments, Partner with us for a transparent, hassle-free, and eco-friendly scrap management experience.
               </p>
             </div>
           </div>
@@ -125,37 +126,37 @@ export default function BulkScrap() {
 
     <div className="row">
       <div className="col-12 mb-4">
-        <h4 className="fw-bold text-dark">1. Seamless Pickup Execution</h4>
+        <h4 className="fw-bold text-dark">1. Effortless, On-Time Pickup</h4>
         <p className="f_15 text-justify">
-          From instant booking to doorstep scrap pickup, our trained staff and GPS-enabled fleet ensure hassle-free, timely service across Delhi NCR.
+         Book instantly and relax—our highly trained team and GPS-tracked fleet guarantee fast, reliable doorstep scrap collection anywhere across Delhi NCR, every time.
         </p>
       </div>
 
       <div className="col-12 mb-4">
-        <h4 className="fw-bold text-dark">2. Expertise in All Scrap Types</h4>
+        <h4 className="fw-bold text-dark">2. Comprehensive Scrap Expertise</h4>
         <p className="f_15 text-justify">
-          We handle a wide variety of bulk scrap—metal, plastic, cardboard, and e-waste—from offices, societies, factories, warehouses, and retail spaces.
+       From metals and plastics to cardboard and e-waste, we expertly manage all scrap types for offices, residential societies, factories, warehouses, and retail outlets.
         </p>
       </div>
 
       <div className="col-12 mb-4">
-        <h4 className="fw-bold text-dark">3. Eco-Friendly & Certified Disposal</h4>
+        <h4 className="fw-bold text-dark">3. Certified, Environmentally Responsible Disposal</h4>
         <p className="f_15 text-justify">
-          Our recycling partners follow government norms. You receive GST invoices and Green Recycling Certificates after every pickup, ensuring full compliance.
+         Partnering only with government-approved recyclers, we ensure 100% compliant, eco-friendly processing. You receive GST invoices and official Green Recycling Certificates for peace of mind.
         </p>
       </div>
 
       <div className="col-12 mb-4">
-        <h4 className="fw-bold text-dark">4. Transparent Pricing</h4>
+        <h4 className="fw-bold text-dark">4. Transparent, Competitive Pricing</h4>
         <p className="f_15 text-justify">
-          Get real-time scrap rates with no hidden costs. We offer instant payments via UPI or bank transfer after material verification.
+        Say goodbye to surprises. We provide live market-based pricing, zero hidden fees, and instant digital payments immediately after verification.
         </p>
       </div>
 
       <div className="col-12 mb-4">
-        <h4 className="fw-bold text-dark">5. Trusted by 500+ Clients</h4>
+        <h4 className="fw-bold text-dark">5. Trusted by 500+ Satisfied Clients</h4>
         <p className="f_15 text-justify">
-          Scrapify is the go-to scrap partner for IT parks, schools, housing societies, and commercial buildings throughout Delhi, Noida, Gurugram, Ghaziabad, and Faridabad.
+         From IT parks and educational institutions to housing societies and commercial hubs, Scrapify is the go-to scrap management partner in Delhi, Noida, Gurugram, Ghaziabad, and Faridabad.
         </p>
       </div>
 
@@ -174,8 +175,8 @@ export default function BulkScrap() {
   <div className="container">
     <div className="row">
       <div className="col-12 mb-5">
-        <h2 className="fw-bold text-center">Our Prospective Clients</h2>
-        <p className="text-center text-muted">We cater to a wide range of sectors that require responsible scrap management and recycling solutions.</p>
+        <h2 className="fw-bold text-center">Who We Serve: Tailored Scrap Solutions for Every Industry</h2>
+        <p className="text-center text-muted">At Scrapify, we understand that every sector has unique scrap management challenges. That’s why we offer customized, reliable, and eco-friendly services designed to meet your specific needs.</p>
       </div>
     </div>
 
@@ -186,7 +187,7 @@ export default function BulkScrap() {
           <div className="card-body p-4">
             <Factory size={48} className="text-success mb-3" />
             <h5 className="fw-bold">Industrial Units</h5>
-            <p className="text-muted small">Scrap metal, machinery, and bulk waste management for factories and plants.</p>
+            <p className="text-muted small">From heavy metal scrap to obsolete machinery, we provide safe, efficient bulk waste removal — minimizing downtime and maximizing compliance.</p>
           </div>
         </div>
       </div>
@@ -197,7 +198,7 @@ export default function BulkScrap() {
           <div className="card-body p-4">
             <MonitorSmartphone size={48} className="text-success mb-3" />
             <h5 className="fw-bold">IT & Tech Parks</h5>
-            <p className="text-muted small">Secure e-waste disposal for servers, computers, and electronic peripherals.</p>
+            <p className="text-muted small">Protect sensitive data and the environment with our secure e-waste disposal for servers, computers, and electronic equipment — fully certified and audit-ready.</p>
           </div>
         </div>
       </div>
@@ -207,8 +208,8 @@ export default function BulkScrap() {
         <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
           <div className="card-body p-4">
             <Stethoscope size={48} className="text-success mb-3" />
-            <h5 className="fw-bold">Hospitals</h5>
-            <p className="text-muted small">Disposal of medical equipment, beds, and metal scrap as per norms.</p>
+            <h5 className="fw-bold">Hospitals & Healthcare</h5>
+            <p className="text-muted small">We ensure compliant disposal of medical equipment, hospital beds, and metal scrap — helping you maintain strict health and environmental standards.</p>
           </div>
         </div>
       </div>
@@ -219,7 +220,7 @@ export default function BulkScrap() {
           <div className="card-body p-4">
             <Hotel size={48} className="text-success mb-3" />
             <h5 className="fw-bold">Hotels & Resorts</h5>
-            <p className="text-muted small">Scrap clearance from furniture, fixtures, and kitchen equipment.</p>
+            <p className="text-muted small">Streamline renovations and refurbishments with hassle-free removal of old furniture, fixtures, kitchen gear, and other scrap — fast, discreet, and green.</p>
           </div>
         </div>
       </div>
@@ -230,7 +231,7 @@ export default function BulkScrap() {
           <div className="card-body p-4">
             <Building2 size={48} className="text-success mb-3" />
             <h5 className="fw-bold">Commercial Spaces</h5>
-            <p className="text-muted small">Offices, malls, and retail outlets requiring periodic scrap pickup.</p>
+            <p className="text-muted small">Offices, malls, and retail outlets trust us for regular scrap pickups that keep their premises clean, safe, and sustainable.</p>
           </div>
         </div>
       </div>
@@ -241,7 +242,7 @@ export default function BulkScrap() {
           <div className="card-body p-4">
             <Home size={48} className="text-success mb-3" />
             <h5 className="fw-bold">Residential Societies</h5>
-            <p className="text-muted small">Community-level waste management and recyclables collection.</p>
+            <p className="text-muted small">We simplify community waste management with doorstep scrap collection, promoting recycling and a cleaner living environment.</p>
           </div>
         </div>
       </div>
@@ -251,8 +252,8 @@ export default function BulkScrap() {
         <div className={`${styles.clientCard} card h-100 border-0 shadow-sm text-center`}>
           <div className="card-body p-4">
             <GraduationCap size={48} className="text-success mb-3" />
-            <h5 className="fw-bold">Institutions</h5>
-            <p className="text-muted small">Schools, colleges, and training centers discarding old infrastructure.</p>
+            <h5 className="fw-bold">Educational Institutions</h5>
+            <p className="text-muted small">Helping schools, colleges, and training centers responsibly dispose of outdated infrastructure and materials with transparent documentation.</p>
           </div>
         </div>
       </div>
@@ -263,7 +264,7 @@ export default function BulkScrap() {
           <div className="card-body p-4">
             <Truck size={48} className="text-success mb-3" />
             <h5 className="fw-bold">Warehouses & Logistics</h5>
-            <p className="text-muted small">Pallets, storage racks, and outdated logistics scrap handled efficiently.</p>
+            <p className="text-muted small">From pallets to storage racks, we handle large-scale scrap clearance with precision — ensuring smooth operations and regulatory compliance.</p>
           </div>
         </div>
       </div>
