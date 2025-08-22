@@ -109,10 +109,10 @@ export default function FacilityDecommissioning() {
             <div className="col-lg-8">
               <h2 className="fw-bold mb-4">Facility Decommissioning Services</h2>
               <p className="f_16 text-justify mb-4">
-               Scrapify offers specialized decommissioning services for industrial, commercial, and institutional facilities across Delhi, Noida, Gurugram, and surrounding NCR. Whether you're relocating, closing down operations, or upgrading infrastructure, our team ensures a safe, structured, and regulation-compliant shutdown process.
+             Scrapify provides specialized decommissioning solutions for industrial, commercial, and institutional facilities across Delhi, Noida, Gurugram, and the wider NCR region.Whether you're relocating, shutting down operations, or upgrading infrastructure, our expert team ensures a safe, structured, and regulation-compliant shutdown process.
               </p>
               <p className="f_16 text-justify mb-4">
-              We manage the dismantling and removal of machinery, electrical panels, furniture, HVAC systems, and all scrap material generated in the process — with full traceability, valuation reports, and GST invoicing. Our turnkey service reduces downtime, eliminates risk, and ensures complete site readiness for your next phase.
+            We handle the dismantling and removal of:Machinery and equipment, Electrical panels and HVAC systems, Furniture and office fixtures, All scrap materials generated during decommissioning. With full traceability, valuation reports, and GST invoicing, our turnkey service minimizes downtime, reduces risk, and prepares your site for its next phase—efficiently and responsibly.
               </p>
             </div>
             <div className="col-lg-4">
@@ -141,7 +141,7 @@ export default function FacilityDecommissioning() {
           <div className="col-12 text-center mb-5">
             <h2 className="fw-bold mb-3">Decommissioning Service Portfolio</h2>
             <p className="lead f_16 text-muted">
-              Complete facility closure and asset recovery solutions
+              Complete facility closure and asset recovery solutions tailored for industrial, commercial, and institutional clients.
             </p>
           </div>
         </div>
@@ -161,8 +161,7 @@ export default function FacilityDecommissioning() {
                   <div>
                     <h5 className="fw-bold mb-2">Asset Inventory</h5>
                     <p className="f_15 text-muted mb-0">
-                      Comprehensive cataloging and valuation of all facility assets including machinery, equipment,
-                      and materials with detailed documentation.
+                     Thorough cataloging and valuation of all facility assets, including machinery, equipment, and materials, with complete documentation for audit and resale purposes.
                     </p>
                   </div>
                 </div>
@@ -184,8 +183,7 @@ export default function FacilityDecommissioning() {
                   <div>
                     <h5 className="fw-bold mb-2">Equipment Removal</h5>
                     <p className="f_15 text-muted mb-0">
-                      Safe dismantling and removal of industrial equipment, machinery, and infrastructure components
-                      with specialized handling.
+                     Safe dismantling and removal of industrial machinery, electrical systems, and infrastructure components—executed by trained professionals using specialized handling techniques.
                     </p>
                   </div>
                 </div>
@@ -207,8 +205,7 @@ export default function FacilityDecommissioning() {
                   <div>
                     <h5 className="fw-bold mb-2">Environmental Cleanup</h5>
                     <p className="f_15 text-muted mb-0">
-                      Soil testing, contamination assessment, and environmental remediation to meet regulatory
-                      standards and compliance requirements.
+                    Soil testing, contamination assessment, and environmental remediation carried out in accordance with regulatory standards to ensure safe and compliant site closure.
                     </p>
                   </div>
                 </div>
@@ -230,8 +227,7 @@ export default function FacilityDecommissioning() {
                   <div>
                     <h5 className="fw-bold mb-2">Site Restoration</h5>
                     <p className="f_15 text-muted mb-0">
-                      Complete site cleanup and restoration to prepare the facility for new use or redevelopment with
-                      final inspection.
+                    Complete site cleanup and restoration to prepare the facility for redevelopment, resale, or handover, including final inspection and readiness certification where required.
                     </p>
                   </div>
                 </div>
@@ -324,7 +320,7 @@ export default function FacilityDecommissioning() {
           <div className="row">
             <div className="col-12 text-center mb-5">
               <h2 className="fw-bold mb-3">Asset Recovery & Sales Channels</h2>
-              <p className="lead f_16 text-muted">Multiple avenues to maximize your asset value</p>
+              <p className="lead f_16 text-muted">Maximize the value of your facility assets through multiple resale avenues tailored to asset type and market demand.</p>
             </div>
           </div>
           <div className="row">
@@ -334,7 +330,7 @@ export default function FacilityDecommissioning() {
                   <i className="fas fa-gavel fa-3x text-primary mb-3"></i>
                   <h5 className="fw-bold mb-2">Equipment Auctions</h5>
                   <p className="f_14 text-muted">
-                    Online and live auctions for maximum market exposure and competitive bidding
+                  Reach a broad audience through online and live auctions, designed to generate competitive bidding and ensure maximum market exposure for general and industrial equipment.
                   </p>
                 </div>
               </div>
@@ -345,7 +341,7 @@ export default function FacilityDecommissioning() {
                   <i className="fas fa-handshake fa-3x text-success mb-3"></i>
                   <h5 className="fw-bold mb-2">Direct Sales</h5>
                   <p className="f_14 text-muted">
-                    Direct sales to equipment dealers and end users for specialized machinery
+                 We facilitate targeted sales to trusted equipment dealers and end users, ideal for specialized or high-value machinery requiring niche expertise.
                   </p>
                 </div>
               </div>
@@ -355,7 +351,7 @@ export default function FacilityDecommissioning() {
                 <div className="card-body p-4">
                   <i className="fas fa-globe fa-3x text-warning mb-3"></i>
                   <h5 className="fw-bold mb-2">International Markets</h5>
-                  <p className="f_14 text-muted">Global network for specialized equipment with international demand</p>
+                  <p className="f_14 text-muted">Tap into our global network of buyers to connect your assets with international markets where specific equipment categories are in high demand.</p>
                 </div>
               </div>
             </div>
@@ -404,7 +400,7 @@ export default function FacilityDecommissioning() {
             <div className="col-lg-8 mx-auto text-center">
               <h2 className="fw-bold mb-3">Planning Facility Closure?</h2>
               <p className="lead f_18 mb-4">
-                Maximize asset recovery and ensure compliance with our comprehensive decommissioning services.
+            Recover maximum value from your assets and ensure full regulatory compliance with Scrapify’s end-to-end decommissioning services.
               </p>
               <div className="d-flex gap-3 justify-content-center">
                  <ModalButton text="Request Assessment" variant="white"/>
