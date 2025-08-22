@@ -86,10 +86,10 @@ export default function BulkScrap() {
         <h1 className="display-5 fw-bold mb-3">
           Bulk Scrap Collection Services for Businesses & Societies
         </h1>
-        <h3 className="fw-semibold mb-4">
+        <p className="lead f_18 mb-4">
          Welcome to Scrapify — your trusted online scrap collection partner.
 We offer hassle-free, doorstep bulk pickup for businesses, residential societies, offices, and institutions. From metal and paper to e-waste and furniture, we ensure fair pricing, digital weighing, and instant payments — all with transparent processes and environmentally responsible disposal.
-        </h3>
+        </p>
         <div className="d-flex justify-content-center justify-content-lg-start gap-3">
           <ModalButton text="Get a quote" variant="white" />
         </div>
