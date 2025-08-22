@@ -48,17 +48,17 @@ export default function EWasteServices() {
     {
       question: "Which electronic items do you accept?",
       answer:
-        "We accept computers, laptops, smartphones, tablets, televisions, home appliances, office equipment, servers, networking equipment, and most other electronic devices.",
+        "We accept a wide range of electronic devices, including computers, laptops, smartphones, tablets, televisions, home appliances, office equipment, servers, networking gear, and most other consumer and commercial electronics.",
     },
     {
       question: "Do you provide certificates for e-waste disposal?",
       answer:
-        "Yes, we provide official certificates of disposal and data destruction that comply with environmental regulations and can be used for audit purposes.",
+        "Yes, we provide official certificates of disposal and data destruction, fully compliant with environmental regulations. These certificates are audit-ready and ideal for businesses and institutions that require documented proof of responsible e-waste handling.",
     },
     {
       question: "Is there a charge for e-waste pickup?",
       answer:
-        "Pickup charges depend on the quantity and location. For bulk e-waste, we often provide free pickup services. Contact us for a customized quote.",
+        "Pickup charges depend on the quantity and location. For bulk e-waste, we often offer free pickup services. Please contact us for a customized quote based on your specific needs.",
     },
   ]
 
@@ -303,7 +303,7 @@ export default function EWasteServices() {
                 <div className="card-body p-4">
                   <i className="fas fa-certificate fa-3x text-primary mb-3"></i>
                   <h5 className="fw-bold mb-2">Certified Destruction</h5>
-                  <p className="f_14 text-muted">DOD 5220.22-M compliant data wiping with certificates provided</p>
+                  <p className="f_14 text-muted">DOD 5220.22-M–compliant data wiping with certificates of destruction for secure, audit-ready disposal.</p>
                 </div>
               </div>
             </div>
@@ -312,7 +312,7 @@ export default function EWasteServices() {
                 <div className="card-body p-4">
                   <i className="fas fa-shield-alt fa-3x text-success mb-3"></i>
                   <h5 className="fw-bold mb-2">EPA Compliance</h5>
-                  <p className="f_14 text-muted">Full compliance with environmental protection agency regulations</p>
+                  <p className="f_14 text-muted">We operate in full compliance with Environmental Protection Agency (EPA) regulations, ensuring all scrap handling and disposal is conducted legally, safely, and responsibly.</p>
                 </div>
               </div>
             </div>
@@ -321,7 +321,7 @@ export default function EWasteServices() {
                 <div className="card-body p-4">
                   <i className="fas fa-file-contract fa-3x text-warning mb-3"></i>
                   <h5 className="fw-bold mb-2">Chain of Custody</h5>
-                  <p className="f_14 text-muted">Complete documentation and tracking from pickup to final disposal</p>
+                  <p className="f_14 text-muted">Full chain of custody with end-to-end tracking and documented proof of disposal. </p>
                 </div>
               </div>
             </div>

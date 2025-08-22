@@ -53,22 +53,22 @@ export default function ScrapDealing() {
     {
       question: "What types of scrap materials do you accept?",
       answer:
-        "We accept a wide variety of materials including metals (iron, steel, aluminum, copper, brass), paper products, cardboard, plastic materials, batteries, and electronic waste. Contact us for specific material inquiries.",
+        "We accept a wide range of materials, including metals (iron, steel, aluminum, copper, brass), paper products, cardboard, plastics, batteries, and electronic waste. For specific materials or special cases, feel free to contact us directly.",
     },
     {
       question: "How do you determine scrap prices?",
       answer:
-        "Our pricing is based on current market rates, material quality, quantity, and type. We provide transparent pricing and ensure you get competitive rates for your scrap materials.",
+        "Pricing is based on current market rates, as well as the quality, quantity, and type of scrap materials. We maintain transparent pricing to ensure you receive competitive rates every time.",
     },
     {
       question: "Do you provide pickup services?",
       answer:
-        "Yes, we offer free doorstep pickup services for bulk quantities. For smaller amounts, you can visit our collection centers or schedule a pickup for a nominal fee.",
+        "Yes, We offer free doorstep pickup for bulk quantities. For smaller amounts, you can either visit our collection centers or schedule a pickup for a nominal fee.",
     },
     {
       question: "What is the minimum quantity for pickup?",
       answer:
-        "We typically require a minimum value of Rs. 500 for free pickup services. However, this may vary based on location and material type.",
+        "We typically require a minimum value of Rs. 1000 for free pickup services. This threshold may vary depending on your location and the type of material.",
     },
   ]
 
@@ -170,7 +170,7 @@ export default function ScrapDealing() {
               <div>
                 <h5 className="fw-bold mb-2">Metal Scrap Collection</h5>
                 <p className="f_15 text-muted mb-0">
-                  We collect and purchase all types of metal scrap, including iron, steel, copper, aluminum, and brass. Our services ensure competitive rates, digital weighing, and instant payments — ideal for factories, warehouses, and commercial sites.
+                 We collect and purchase all types of metal scrap—iron, steel, copper, aluminum, brass, and more. Our services offer competitive rates, ISO-certified digital weighing, and instant payments, making us the preferred choice for factories, warehouses, and commercial sites.
                 </p>
               </div>
             </div>
@@ -189,7 +189,7 @@ export default function ScrapDealing() {
               <div>
                 <h5 className="fw-bold mb-2">Paper & Cardboard Waste</h5>
                 <p className="f_15 text-muted mb-0">
-                  We offer efficient collection and recycling of cardboard boxes, newspapers, shredded office paper, and packaging waste. Scrapify ensures proper sorting and eco-friendly processing in partnership with certified recyclers.
+                 We provide efficient collection and recycling of cardboard boxes, newspapers, shredded office paper, and packaging waste. Scrapify ensures proper sorting and eco-friendly processing through partnerships with certified recyclers, helping reduce landfill waste responsibly.
                 </p>
               </div>
             </div>
@@ -208,7 +208,7 @@ export default function ScrapDealing() {
               <div>
                 <h5 className="fw-bold mb-2">Plastic Scrap Collection</h5>
                 <p className="f_15 text-muted mb-0">
-                  We handle industrial and post-consumer plastic waste including PET bottles, HDPE containers, shrink wraps, crates, and more — sorted at source for effective recycling and material recovery.
+                 We handle both industrial and post-consumer plastic waste, including PET bottles, HDPE containers, shrink wraps, crates, and more. Our team sorts plastics at the source to ensure effective recycling and maximum material recovery.
                 </p>
               </div>
             </div>
@@ -227,7 +227,7 @@ export default function ScrapDealing() {
               <div>
                 <h5 className="fw-bold mb-2">Battery Recycling</h5>
                 <p className="f_15 text-muted mb-0">
-                  Our team safely collects and disposes of used automotive, inverter, and UPS batteries. All battery scrap is processed in compliance with environmental norms, with proper documentation and disposal certificates.
+                 We safely collect and dispose of used automotive, inverter, and UPS batteries. All battery scrap is processed in strict compliance with environmental regulations, accompanied by proper documentation and disposal certificates.
                 </p>
               </div>
             </div>
@@ -246,7 +246,7 @@ export default function ScrapDealing() {
               <div>
                 <h5 className="fw-bold mb-2">E-Waste Collection</h5>
                 <p className="f_15 text-muted mb-0">
-                  Scrapify offers hassle-free pickup of outdated or damaged electronic equipment such as computers, monitors, printers, routers, and servers. All e-waste is recycled through authorized channels with proper certification for compliance.
+                 Scrapify provides hassle-free pickup of outdated or damaged electronic equipment—including computers, monitors, printers, routers, and servers. All e-waste is responsibly recycled through authorized channels, with full certification to ensure compliance.
                 </p>
               </div>
             </div>
@@ -265,7 +265,7 @@ export default function ScrapDealing() {
               <div>
                 <h5 className="fw-bold mb-2">Furniture Disposal</h5>
                 <p className="f_15 text-muted mb-0">
-                  We provide professional pickup and eco-conscious disposal of office chairs, desks, workstations, and storage units. Ideal for office renovations, clear-outs, or shutdowns — all handled responsibly.
+                We offer professional pickup and eco-friendly disposal of office furniture—including chairs, desks, workstations, and storage units. Perfect for office renovations, clear-outs, or shutdowns, all handled responsibly and sustainably.
                 </p>
               </div>
             </div>
@@ -297,7 +297,7 @@ export default function ScrapDealing() {
                 </div>
                 <h5 className="fw-bold mb-2">Schedule Pickup</h5>
                 <p className="f_14 text-muted">
-                  Contact us via phone or website to schedule a convenient pickup time for your scrap materials.
+               Get in touch via phone or our website to book a convenient pickup time for your scrap materials. Fast, easy, and hassle-free.
                 </p>
               </div>
             </div>
@@ -310,7 +310,7 @@ export default function ScrapDealing() {
                 </div>
                 <h5 className="fw-bold mb-2">Material Assessment</h5>
                 <p className="f_14 text-muted">
-                  Our experts assess and categorize your scrap materials to determine the best pricing structure.
+                 Our experts carefully assess and categorize your scrap materials to ensure you receive the best pricing based on quality and market value.
                 </p>
               </div>
             </div>
@@ -323,7 +323,7 @@ export default function ScrapDealing() {
                 </div>
                 <h5 className="fw-bold mb-2">Accurate Weighing</h5>
                 <p className="f_14 text-muted">
-                  We use certified digital scales to ensure accurate measurement and fair pricing for all materials.
+                We use certified digital scales to guarantee precise measurements, ensuring you get fair and transparent pricing for all scrap materials.
                 </p>
               </div>
             </div>
@@ -336,7 +336,7 @@ export default function ScrapDealing() {
                 </div>
                 <h5 className="fw-bold mb-2">Instant Payment</h5>
                 <p className="f_14 text-muted">
-                  Receive immediate payment through cash, bank transfer, or digital payment methods of your choice.
+                 Get paid immediately via cash, bank transfer, or digital payment methods—whichever works best for you.
                 </p>
               </div>
             </div>
