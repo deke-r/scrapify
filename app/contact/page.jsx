@@ -141,12 +141,12 @@ export default function Contact() {
                 data-bs-toggle="collapse"
                 data-bs-target="#faq1"
               >
-                How does Scrapify's bulk scrap pickup work?
+               How does Scrapify’s bulk scrap pickup work?
               </button>
             </h3>
             <div id="faq1" className="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
               <div className="accordion-body f_15">
-                Scrapify offers doorstep bulk scrap collection for societies, offices, and industries. Simply book via WhatsApp or our website, and our verified pickup team will arrive with digital weighing scales, offer live rates, and provide instant UPI or cash payment with GST invoice.
+                Scrapify offers doorstep bulk scrap collection for societies, offices, and industries. Simply book a pickup through WhatsApp or our website, and our verified team will arrive equipped with digital weighing scales. We provide live market rates, and offer instant payment via UPI or cash, along with a GST-compliant invoice.
               </div>
             </div>
           </div>
@@ -165,7 +165,7 @@ export default function Contact() {
             </h3>
             <div id="faq2" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div className="accordion-body f_15">
-                Yes, we issue GST-compliant invoices and disposal certificates for every transaction. This is ideal for businesses and corporate clients who need legal and audit-ready scrap documentation.
+               Yes. We issue GST-compliant invoices and disposal certificates for every transaction. This is especially useful for businesses and corporate clients who require legal and audit-ready documentation for scrap disposal.
               </div>
             </div>
           </div>
@@ -184,7 +184,7 @@ export default function Contact() {
             </h3>
             <div id="faq3" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div className="accordion-body f_15">
-                We currently operate across Delhi NCR, including Noida, Gurugram, Ghaziabad, and Faridabad. Bulk pickup services are available 7 days a week for commercial and institutional clients.
+             We currently operate across Delhi NCR, including:Delhi, Noida, Gurugram, Ghaziabad & Faridabad. Our bulk pickup services are available 7 days a week for commercial, residential societies, and institutional clients.
               </div>
             </div>
           </div>

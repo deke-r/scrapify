@@ -21,25 +21,25 @@ export default function WhyScrapify() {
       icon: <IndianRupee size={32} />,
       title: "Best Rates, No Surprises",
       desc:
-        "We offer competitive and transparent pricing for all scrap types — metal, e-waste, cardboard, and more — with zero hidden charges."
+        "We offer competitive, transparent pricing for all types of scrap — metal, e-waste, cardboard, plastic, and more — with zero hidden charges and real-time market rates you can trust."
     },
     {
       icon: <ShieldCheck size={32} />,
       title: "Verified & Trained Pickup Team",
       desc:
-        "Our pickup staff is background-verified and trained in industrial-grade handling, ensuring safety and professionalism on every visit."
+        "Our pickup professionals are background-verified and trained in industrial-grade scrap handling, ensuring safe, reliable, and professional service every time."
     },
     {
       icon: <Scale size={32} />,
       title: "Digital Weighing & GST Invoicing",
       desc:
-        "We use ISO-certified digital scales to ensure accurate weighing. Get instant UPI payments, GST-compliant invoices, and disposal certificates."
+        "We use ISO-certified digital weighing scales for 100% accuracy. Receive instant UPI payments, GST-compliant invoices, and disposal certificates—all in real time."
     },
     {
       icon: <Eye size={32} />,
       title: "100% Transparent Process",
       desc:
-        "From pickup to payment, everything is documented and trackable — no guesswork, no delays. Your scrap is processed responsibly and legally."
+        "From pickup to payment, every step is documented, trackable, and verifiable—no guesswork, no delays. Your scrap is handled legally, responsibly, and with complete transparency."
     }
   ];
 

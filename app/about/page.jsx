@@ -64,7 +64,7 @@ export default function About() {
       <div className="col-lg-6 order-2 order-lg-1 text-center text-lg-start">
         <h1 className="display-5 fw-bold mb-3">About Scrapify</h1>
         <p className="lead f_18 mb-4">
-          Scrapify is a professional scrap management company serving businesses, housing societies, and institutions across Delhi NCR. We offer doorstep pickup, e-waste disposal, and facility decommissioning with a focus on transparency, sustainability, and instant payment. Trusted by commercial clients and bulk scrap generators, Scrapify combines the convenience of an online kabadiwala with the efficiency of certified waste management.
+         Scrapify is a professional scrap management company serving businesses, housing societies, and institutions across Delhi NCR. We specialize in doorstep scrap pickup, e-waste disposal, and facility decommissioning, with a strong focus on transparency, sustainability, and instant digital payment.Trusted by commercial clients and bulk scrap generators, Scrapify combines the convenience of an online kabadiwala with the efficiency and reliability of certified waste management—bringing order, value, and accountability to scrap disposal.
         </p>
         <div className="d-flex justify-content-center justify-content-lg-start gap-3">
           <ModalButton variant="white" />
@@ -83,8 +83,7 @@ export default function About() {
             <div className="col-lg-8 mx-auto text-center">
               <Header h2='Our Mission' />
               <p className="lead f_17 text-justify">
-                At Scrapify, our mission is to revolutionize the scrap collection process by making it smart, seamless, and sustainable. We aim to empower businesses, housing societies, and institutions to dispose of their scrap responsibly — while ensuring complete transparency, fair pricing, and eco-friendly practices at every step.
-                From bulk pickup and e-waste collection to facility decommissioning and recycling — we’re committed to building a cleaner, greener future across Delhi NCR.
+               At Scrapify, our mission is to revolutionize scrap collection by making it smart, seamless, and sustainable. We empower businesses, housing societies, and institutions to dispose of scrap responsibly, with a commitment to transparency, fair pricing, and eco-friendly practices.From bulk pickups and e-waste disposal to facility decommissioning and recycling, we’re driving a cleaner, greener future—one pickup at a time across Delhi NCR.
               </p>
             </div>
           </div>
@@ -103,9 +102,9 @@ export default function About() {
         <div className="container">
           <div className="row">
             <div className="col-lg-8 mx-auto text-center">
-              <h2 className="display-5 fw-bold mb-4">Ready to Get Started?</h2>
+              <h2 className="display-5 fw-bold mb-4">Scrap to clear? Let’s make it easy.</h2>
               <p className="lead f_18 mb-4">
-                Join thousands of developers and businesses who trust Scrapify for their data needs.
+                Trusted by families and businesses alike — book your Scrapify pickup now.
               </p>
               <div className="d-flex gap-3 justify-content-center">
                 <ModalButton variant="white" />

@@ -15,8 +15,7 @@ export default function Footer() {
                 <span className="text-success">Scrapify</span>
               </h3>
               <p className="footer-description mb-4">
-                Your trusted online scrap collection partner. We provide hassle-free doorstep pickup services for all
-                types of scrap materials including paper, plastic, metal, e-waste, and furniture.
+               Turning your scrap into value—right from your doorstep.From paper and plastic to metal, e-waste, and old furniture, we collect it all. Easy pickups, fair pricing, and sustainable impact—without the hassle.
               </p>
               <div className="footer-contact-item d-flex align-items-center mb-2">
                 <Phone size={16} className="text-success me-2" />
