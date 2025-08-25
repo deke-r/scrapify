@@ -4,6 +4,8 @@ import { useForm } from "react-hook-form";
 import { useEffect, useState } from "react";
 import { Truck } from "lucide-react";
 
+import { useRouter } from "next/navigation";
+
 const states = ["Delhi", "Noida", "Greater Noida", "Gurugram", "Faridabad", "Ghaziabad", "Others"];
 const scrapTypes = [
   "Metals", "Plastic", "Electronics", "E- Waste", "Bulk Scrap",
@@ -16,6 +18,9 @@ export default function PickupRequestModal({ show, handleClose }) {
   const [loading, setLoading] = useState(false);
   const [successMsg, setSuccessMsg] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
+
+
+  const router = useRouter();
 
   useEffect(() => {
     if (show) {
@@ -67,14 +72,20 @@ export default function PickupRequestModal({ show, handleClose }) {
 
       const res = await response.json();
 
+ 
       if (res.success) {
+    
         setSuccessMsg("Pickup request submitted successfully!");
         reset();
+  
+
         setTimeout(() => {
-          setSuccessMsg("");
-          handleClose();
-        }, 2000);
-      } else {
+          router.push("/thank-you");
+        }, 1500);
+      }
+      
+      
+      else {
         setErrorMsg("Failed to submit. Please try again.");
       }
     } catch (err) {

@@ -122,7 +122,7 @@ export default function RecyclingServices() {
                   alt="Recycling Services"
                   className="img-fluid rounded-5 shadow-lg"
                 />
-                <div className={`${styles.floatingIcon} ${styles.icon1}`}>
+                {/* <div className={`${styles.floatingIcon} ${styles.icon1}`}>
                   <i className="fas fa-recycle"></i>
                 </div>
                 <div className={`${styles.floatingIcon} ${styles.icon2}`}>
@@ -130,7 +130,7 @@ export default function RecyclingServices() {
                 </div>
                 <div className={`${styles.floatingIcon} ${styles.icon3}`}>
                   <i className="fas fa-globe"></i>
-                </div>
+                </div> */}
               </div>
             </div>
 
