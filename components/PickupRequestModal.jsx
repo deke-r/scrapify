@@ -40,8 +40,15 @@ export default function PickupRequestModal({ show, handleClose }) {
     reset,
   } = useForm();
 
-  const scrapTypesSelected = watch("scrapTypes") || [];
-  const isOtherScrapSelected = scrapTypesSelected.includes("Other");
+  const rawScrapTypes = watch("scrapTypes");
+const scrapTypesSelected = Array.isArray(rawScrapTypes)
+  ? rawScrapTypes
+  : rawScrapTypes
+  ? [rawScrapTypes]
+  : [];
+
+const isOtherScrapSelected = scrapTypesSelected.includes("Other");
+
 
   const selectedLocation = watch("state");
   const isOtherLocation = selectedLocation === "Others";
@@ -53,11 +60,20 @@ export default function PickupRequestModal({ show, handleClose }) {
 
     try {
       // Replace "Other" scrap type with custom input
-      if (data.scrapTypes?.includes("Other") && data.otherScrapType) {
-        data.scrapTypes = data.scrapTypes.map(type =>
-          type === "Other" ? data.otherScrapType : type
-        );
+      if (data.scrapTypes) {
+        const normalizedScrapTypes = Array.isArray(data.scrapTypes)
+          ? data.scrapTypes
+          : [data.scrapTypes];
+      
+        if (normalizedScrapTypes.includes("Other") && data.otherScrapType) {
+          data.scrapTypes = normalizedScrapTypes.map(type =>
+            type === "Other" ? data.otherScrapType : type
+          );
+        } else {
+          data.scrapTypes = normalizedScrapTypes;
+        }
       }
+      
 
       // Replace "Others" location with custom input
       if (data.state === "Others" && data.otherLocation) {
