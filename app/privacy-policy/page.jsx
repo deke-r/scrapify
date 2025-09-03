@@ -72,7 +72,7 @@ const PrivacyPolicy = () => {
               If you have any questions about this Privacy Policy, please contact
               us at:
               <br />
-              <a href="mailto:support@scrapify.com">support@scrapify.com</a>
+              <a href="mailto:info@scrapify.in">info@scrapify.in</a>
             </p>
           </div>
         </div>
