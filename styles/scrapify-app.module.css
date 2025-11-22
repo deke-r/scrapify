@@ -1,0 +1,452 @@
+/* PAGE LAYOUT */
+.pageWrapper {
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background: #ffffff;
+    color: #111;
+    line-height: 1.6;
+  }
+  
+  /* HERO */
+  .hero .kicker {
+    font-weight: 700;
+    color: #0f5132;
+    background: rgba(29,78,43,0.08);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  
+  .heroTitle {
+    font-size: 38px;
+    font-weight: 800;
+    color: #0f5132;
+    margin-bottom: 18px;
+    letter-spacing: -0.4px;
+  }
+  
+  .lead {
+    font-size: 16px;
+    color: #3b3b3b;
+  }
+  
+  /* HERO STATS */
+  .heroStats {
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .heroStats li {
+    background: #f0fff4;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-weight: 600;
+    color: #083b1f;
+  }
+  
+  /* MOCKUP WRAP */
+  .mockupWrap {
+    position: relative;
+    display: inline-block;
+    max-width: 420px;
+  }
+  
+  .appMockup {
+    border-radius: 28px;
+    box-shadow: 0 18px 40px rgba(14, 26, 19, 0.08);
+    transform: translateY(0);
+  }
+  
+  .screenImg {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    transition: transform 0.3s ease;
+  }
+  
+  .screenImg:hover {
+    transform: scale(1.03);
+  }
+  
+  /* floating badges */
+  .badgeTop {
+    position: absolute;
+    top: 12%;
+    left: -10%;
+    background: linear-gradient(90deg,#2f855a,#68d391);
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 12px;
+    box-shadow: 0 6px 18px rgba(47,85,90,0.12);
+  }
+  
+  .badgeBottom {
+    position: absolute;
+    bottom: 4%;
+    right: -8%;
+    background: #fff;
+    color: #1d4e2b;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-weight: 700;
+    border: 1px solid rgba(29,78,43,0.06);
+  }
+  
+  /* GHOST BUTTON */
+  .ghostBtn {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 1px solid rgba(29,78,43,0.12);
+    background: transparent;
+    color: #0f5132;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  /* SECTION TITLES */
+  .eyebrow {
+    font-size: 13px;
+    color: #0f5132;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  
+  .sectionTitle {
+    font-size: 28px;
+    color: #0f5132;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+  
+  .sectionSubtitle {
+    color: #375a44;
+    margin-top: 8px;
+  }
+  
+  /* FEATURES */
+  .featuresSection {
+    background: #f6fbf6;
+  }
+  
+  .featureCard {
+    background: #fff;
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 10px 24px rgba(14,26,19,0.04);
+    height: 100%;
+    transition: transform 0.28s ease, box-shadow 0.28s ease;
+  }
+  
+  .featureCard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 36px rgba(14,26,19,0.08);
+  }
+  
+  .featureIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(47,85,90,0.05), rgba(29,78,43,0.03));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+  
+  .featureTitle {
+    font-weight: 700;
+    color: #0f5132;
+    margin-bottom: 6px;
+  }
+  
+  .featureDesc {
+    color: #4b5563;
+    font-size: 14px;
+  }
+  
+  /* HOW IT WORKS */
+  .howItWorks {
+    background: #fff;
+  }
+  
+  .stepCard {
+    background: linear-gradient(180deg, #ffffff, #f9fff9);
+    border-radius: 12px;
+    padding: 22px;
+    border: 1px solid rgba(29,78,43,0.04);
+    height: 100%;
+  }
+  
+  .stepNumber {
+    width: 56px;
+    height: 56px;
+    background: #e6fff1;
+    color: #0f5132;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    font-weight: 800;
+    margin-bottom: 12px;
+  }
+  
+  .stepTitle {
+    font-size: 18px;
+    font-weight: 800;
+    color: #0f5132;
+  }
+  
+  .stepText {
+    color: #425244;
+  }
+  
+  /* RATE CARD */
+  .rateCard {
+    background: #f2fff4;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(29,78,43,0.05);
+  }
+  
+  .rateList {
+    margin-top: 10px;
+  }
+  
+  .rateRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dashed rgba(29,78,43,0.04);
+  }
+  
+  /* SCREEN IMAGES */
+  .screenshots {
+    background: #fff;
+  }
+  
+  .screenImg {
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(14,26,19,0.06);
+    width: 100%;
+  }
+  
+  /* TESTIMONIALS */
+  .testimonialCard {
+    background: #fff;
+    border-radius: 12px;
+    padding: 18px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .testimonialBody {
+    font-style: italic;
+    color: #2d3748;
+  }
+  
+  .testimonialMeta {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 12px;
+  }
+  
+  .testimonialImg {
+    border-radius: 999px;
+    object-fit: cover;
+  }
+  
+  .testimonialName {
+    font-weight: 800;
+    color: #0f5132;
+  }
+  
+  .testimonialCompany {
+    color: #6b7280;
+    font-size: 13px;
+  }
+  
+  /* FAQ */
+  .faq .accordion-button {
+    font-weight: 700;
+    color: #0f5132;
+  }
+  
+  .faq .accordion-body {
+    color: #374151;
+  }
+  
+  /* PRICING */
+  .pricingCard {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 26px rgba(14,26,19,0.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .pricingHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pricingAmount {
+    color: #0f5132;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+  .pricingFeatures {
+    list-style: none;
+    padding: 0;
+    margin-top: 12px;
+  }
+  
+  .pricingFeatures li {
+    padding: 8px 0;
+    border-bottom: 1px dashed rgba(15,81,50,0.04);
+  }
+  
+  .recommended {
+    border: 2px solid rgba(29,78,43,0.12);
+    transform: translateY(-6px);
+  }
+  
+  /* TEAM */
+  .teamCard {
+    text-align: center;
+    background: #fff;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 10px 30px rgba(14,26,19,0.04);
+  }
+  
+  .teamImg {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 220px;
+  }
+  
+  .teamRole {
+    color: #6b7280;
+    font-size: 13px;
+  }
+  
+  /* CHANGELOG */
+  .changelogGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+  }
+  
+  .changeItem {
+    background: #fff;
+    padding: 14px;
+    border-radius: 10px;
+    border-left: 4px solid rgba(29,78,43,0.08);
+  }
+  
+  /* CONTACT */
+  .contactBox {
+    background: #fff;
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: 0 8px 26px rgba(14,26,19,0.04);
+  }
+  
+  .contactList {
+    list-style: none;
+    padding: 0;
+    margin-top: 12px;
+  }
+  
+  .primaryBtn {
+    background: linear-gradient(90deg,#15803d,#16a34a);
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  .formBtn {
+    background: #0f5132;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+  }
+  
+  /* ACCESSIBILITY & FOOTER */
+  .accessTitle {
+    font-weight: 800;
+    color: #0f5132;
+  }
+  
+  .accessText {
+    color: #465a45;
+  }
+  
+  .footer {
+    background: #f8fff8;
+    border-top: 1px solid rgba(29,78,43,0.04);
+  }
+  
+  .footerLink {
+    margin-left: 18px;
+    color: #0f5132;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .footerBrand img {
+    display: inline-block;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 991px) {
+    .heroTitle {
+      font-size: 30px;
+    }
+  
+    .mockupWrap {
+      max-width: 320px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .heroTitle {
+      font-size: 22px;
+    }
+  
+    .badgeTop, .badgeBottom {
+      display: none;
+    }
+  
+    .teamImg {
+      height: 180px;
+    }
+  }
+  
+  /* Micro interactions */
+  .featureCard:hover .featureIcon {
+    transform: translateY(-4px);
+    transition: transform 0.25s ease;
+  }
+  

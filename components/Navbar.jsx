@@ -93,6 +93,11 @@ export default function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" href="/contact">Contact</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" href="https://play.google.com/store/apps/details?id=com.senseprojects.scrapifyApp&pcampaignid=web_share">
+              <img src='/img/—Pngtree—google play app icon vector_12256664.png' alt='f' style={{marginTop:'-10px'}} width={120} />
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
